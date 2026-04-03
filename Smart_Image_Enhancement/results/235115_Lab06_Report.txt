@@ -1,0 +1,10415 @@
+=====================================================
+SMART IMAGE ENHANCEMENT SYSTEM - Lab 06
+Student: Muhammad Umar Farooq (235115)
+Instructor: Mr. Ghulam Ali
+=====================================================
+
+TASK 6.1 - IMAGE ACQUISITION
+Resolution: 3456x5184, Channels: 3, Type: uint8
+
+TASK 6.2 - SAMPLING & QUANTIZATION
+Scales tested: 0.25x, 0.5x, 1x, 1.5x, 2x
+Bit depths: 2-bit, 4-bit, 8-bit
+
+TASK 6.3 - GEOMETRIC TRANSFORMS
+Rotations: 30,45,60,90,120,150,180 degrees
+Restoration MSE: 892.24
+
+Restoration MSE: 884.31
+
+Restoration MSE: 881.68
+
+Restoration MSE: 881.03
+
+Restoration MSE: 883.54
+
+Restoration MSE: 885.47
+
+Restoration MSE: 886.69
+
+Restoration MSE: 885.92
+
+Restoration MSE: 879.28
+
+Restoration MSE: 878.66
+
+Restoration MSE: 878.57
+
+Restoration MSE: 877.86
+
+Restoration MSE: 880.66
+
+Restoration MSE: 879.17
+
+Restoration MSE: 877.89
+
+Restoration MSE: 877.17
+
+Restoration MSE: 867.79
+
+Restoration MSE: 867.13
+
+Restoration MSE: 869.86
+
+Restoration MSE: 869.31
+
+Restoration MSE: 872.20
+
+Restoration MSE: 871.71
+
+Restoration MSE: 867.66
+
+Restoration MSE: 866.92
+
+Restoration MSE: 870.66
+
+Restoration MSE: 870.05
+
+Restoration MSE: 870.18
+
+Restoration MSE: 869.57
+
+Restoration MSE: 865.21
+
+Restoration MSE: 864.38
+
+Restoration MSE: 862.75
+
+Restoration MSE: 861.95
+
+Restoration MSE: 858.17
+
+Restoration MSE: 856.79
+
+Restoration MSE: 856.80
+
+Restoration MSE: 856.87
+
+Restoration MSE: 860.84
+
+Restoration MSE: 861.20
+
+Restoration MSE: 861.02
+
+Restoration MSE: 859.72
+
+Restoration MSE: 859.29
+
+Restoration MSE: 858.34
+
+Restoration MSE: 852.93
+
+Restoration MSE: 851.99
+
+Restoration MSE: 855.07
+
+Restoration MSE: 854.71
+
+Restoration MSE: 858.68
+
+Restoration MSE: 858.17
+
+Restoration MSE: 847.06
+
+Restoration MSE: 846.03
+
+Restoration MSE: 844.28
+
+Restoration MSE: 842.31
+
+Restoration MSE: 847.03
+
+Restoration MSE: 848.94
+
+Restoration MSE: 849.67
+
+Restoration MSE: 849.02
+
+Restoration MSE: 850.85
+
+Restoration MSE: 850.16
+
+Restoration MSE: 849.61
+
+Restoration MSE: 848.84
+
+Restoration MSE: 844.52
+
+Restoration MSE: 843.35
+
+Restoration MSE: 842.52
+
+Restoration MSE: 841.82
+
+Restoration MSE: 837.31
+
+Restoration MSE: 836.44
+
+Restoration MSE: 837.45
+
+Restoration MSE: 838.63
+
+Restoration MSE: 839.20
+
+Restoration MSE: 838.64
+
+Restoration MSE: 836.15
+
+Restoration MSE: 835.46
+
+Restoration MSE: 831.27
+
+Restoration MSE: 830.67
+
+Restoration MSE: 832.30
+
+Restoration MSE: 831.65
+
+Restoration MSE: 829.69
+
+Restoration MSE: 829.12
+
+Restoration MSE: 826.17
+
+Restoration MSE: 825.44
+
+Restoration MSE: 829.92
+
+Restoration MSE: 830.77
+
+Restoration MSE: 830.84
+
+Restoration MSE: 830.03
+
+Restoration MSE: 828.12
+
+Restoration MSE: 827.63
+
+Restoration MSE: 826.07
+
+Restoration MSE: 827.06
+
+Restoration MSE: 824.11
+
+Restoration MSE: 822.96
+
+Restoration MSE: 822.22
+
+Restoration MSE: 821.30
+
+Restoration MSE: 819.21
+
+Restoration MSE: 819.23
+
+Restoration MSE: 818.66
+
+Restoration MSE: 818.33
+
+Restoration MSE: 813.04
+
+Restoration MSE: 810.76
+
+Restoration MSE: 812.37
+
+Restoration MSE: 811.73
+
+Restoration MSE: 814.24
+
+Restoration MSE: 813.92
+
+Restoration MSE: 810.87
+
+Restoration MSE: 809.01
+
+Restoration MSE: 808.40
+
+Restoration MSE: 807.81
+
+Restoration MSE: 813.01
+
+Restoration MSE: 812.80
+
+Restoration MSE: 812.39
+
+Restoration MSE: 811.38
+
+Restoration MSE: 804.64
+
+Restoration MSE: 803.98
+
+Restoration MSE: 806.43
+
+Restoration MSE: 806.19
+
+Restoration MSE: 799.91
+
+Restoration MSE: 799.18
+
+Restoration MSE: 794.56
+
+Restoration MSE: 793.89
+
+Restoration MSE: 799.17
+
+Restoration MSE: 798.42
+
+Restoration MSE: 795.16
+
+Restoration MSE: 794.67
+
+Restoration MSE: 794.58
+
+Restoration MSE: 794.87
+
+Restoration MSE: 796.45
+
+Restoration MSE: 795.58
+
+Restoration MSE: 794.29
+
+Restoration MSE: 793.45
+
+Restoration MSE: 795.61
+
+Restoration MSE: 794.84
+
+Restoration MSE: 793.08
+
+Restoration MSE: 792.33
+
+Restoration MSE: 793.74
+
+Restoration MSE: 794.38
+
+Restoration MSE: 794.77
+
+Restoration MSE: 794.86
+
+Restoration MSE: 788.16
+
+Restoration MSE: 787.56
+
+Restoration MSE: 787.29
+
+Restoration MSE: 786.52
+
+Restoration MSE: 787.51
+
+Restoration MSE: 786.44
+
+Restoration MSE: 785.25
+
+Restoration MSE: 784.53
+
+Restoration MSE: 775.98
+
+Restoration MSE: 775.11
+
+Restoration MSE: 777.12
+
+Restoration MSE: 776.93
+
+Restoration MSE: 778.54
+
+Restoration MSE: 777.98
+
+Restoration MSE: 774.59
+
+Restoration MSE: 773.70
+
+Restoration MSE: 779.44
+
+Restoration MSE: 778.65
+
+Restoration MSE: 779.12
+
+Restoration MSE: 778.31
+
+Restoration MSE: 774.26
+
+Restoration MSE: 773.62
+
+Restoration MSE: 771.71
+
+Restoration MSE: 771.12
+
+Restoration MSE: 766.37
+
+Restoration MSE: 765.31
+
+Restoration MSE: 765.02
+
+Restoration MSE: 764.81
+
+Restoration MSE: 768.11
+
+Restoration MSE: 768.03
+
+Restoration MSE: 767.74
+
+Restoration MSE: 766.70
+
+Restoration MSE: 765.37
+
+Restoration MSE: 764.55
+
+Restoration MSE: 761.17
+
+Restoration MSE: 760.36
+
+Restoration MSE: 761.15
+
+Restoration MSE: 760.62
+
+Restoration MSE: 762.60
+
+Restoration MSE: 762.10
+
+Restoration MSE: 753.22
+
+Restoration MSE: 751.91
+
+Restoration MSE: 750.73
+
+Restoration MSE: 748.63
+
+Restoration MSE: 751.65
+
+Restoration MSE: 753.05
+
+Restoration MSE: 752.94
+
+Restoration MSE: 752.94
+
+Restoration MSE: 753.68
+
+Restoration MSE: 752.97
+
+Restoration MSE: 753.06
+
+Restoration MSE: 752.37
+
+Restoration MSE: 748.13
+
+Restoration MSE: 747.20
+
+Restoration MSE: 745.74
+
+Restoration MSE: 745.05
+
+Restoration MSE: 740.36
+
+Restoration MSE: 739.71
+
+Restoration MSE: 740.86
+
+Restoration MSE: 741.35
+
+Restoration MSE: 740.78
+
+Restoration MSE: 740.11
+
+Restoration MSE: 737.50
+
+Restoration MSE: 736.70
+
+Restoration MSE: 732.56
+
+Restoration MSE: 731.77
+
+Restoration MSE: 732.12
+
+Restoration MSE: 731.33
+
+Restoration MSE: 732.39
+
+Restoration MSE: 731.75
+
+Restoration MSE: 730.06
+
+Restoration MSE: 729.47
+
+Restoration MSE: 732.78
+
+Restoration MSE: 732.50
+
+Restoration MSE: 732.49
+
+Restoration MSE: 731.58
+
+Restoration MSE: 730.73
+
+Restoration MSE: 729.95
+
+Restoration MSE: 728.90
+
+Restoration MSE: 728.75
+
+Restoration MSE: 727.32
+
+Restoration MSE: 726.03
+
+Restoration MSE: 724.41
+
+Restoration MSE: 723.37
+
+Restoration MSE: 722.62
+
+Restoration MSE: 722.28
+
+Restoration MSE: 722.65
+
+Restoration MSE: 722.39
+
+Restoration MSE: 715.39
+
+Restoration MSE: 714.11
+
+Restoration MSE: 714.32
+
+Restoration MSE: 713.73
+
+Restoration MSE: 715.77
+
+Restoration MSE: 715.15
+
+Restoration MSE: 713.42
+
+Restoration MSE: 712.46
+
+Restoration MSE: 710.46
+
+Restoration MSE: 709.73
+
+Restoration MSE: 711.43
+
+Restoration MSE: 711.18
+
+Restoration MSE: 710.65
+
+Restoration MSE: 710.16
+
+Restoration MSE: 706.84
+
+Restoration MSE: 706.19
+
+Restoration MSE: 704.70
+
+Restoration MSE: 703.99
+
+Restoration MSE: 701.22
+
+Restoration MSE: 700.24
+
+Restoration MSE: 698.43
+
+Restoration MSE: 697.72
+
+Restoration MSE: 698.71
+
+Restoration MSE: 698.12
+
+Restoration MSE: 697.15
+
+Restoration MSE: 696.48
+
+Restoration MSE: 696.87
+
+Restoration MSE: 696.28
+
+Restoration MSE: 696.71
+
+Restoration MSE: 696.00
+
+Restoration MSE: 694.23
+
+Restoration MSE: 693.53
+
+Restoration MSE: 693.99
+
+Restoration MSE: 693.40
+
+Restoration MSE: 692.23
+
+Restoration MSE: 691.54
+
+Restoration MSE: 692.07
+
+Restoration MSE: 692.28
+
+Restoration MSE: 691.93
+
+Restoration MSE: 691.54
+
+Restoration MSE: 686.01
+
+Restoration MSE: 685.38
+
+Restoration MSE: 685.36
+
+Restoration MSE: 684.68
+
+Restoration MSE: 684.15
+
+Restoration MSE: 683.28
+
+Restoration MSE: 681.97
+
+Restoration MSE: 681.32
+
+Restoration MSE: 677.15
+
+Restoration MSE: 676.51
+
+Restoration MSE: 676.90
+
+Restoration MSE: 676.35
+
+Restoration MSE: 677.26
+
+Restoration MSE: 676.59
+
+Restoration MSE: 674.83
+
+Restoration MSE: 674.11
+
+Restoration MSE: 677.06
+
+Restoration MSE: 676.03
+
+Restoration MSE: 675.88
+
+Restoration MSE: 675.19
+
+Restoration MSE: 672.92
+
+Restoration MSE: 672.26
+
+Restoration MSE: 670.99
+
+Restoration MSE: 670.32
+
+Restoration MSE: 666.96
+
+Restoration MSE: 666.02
+
+Restoration MSE: 665.16
+
+Restoration MSE: 664.69
+
+Restoration MSE: 666.31
+
+Restoration MSE: 666.00
+
+Restoration MSE: 666.11
+
+Restoration MSE: 665.22
+
+Restoration MSE: 664.95
+
+Restoration MSE: 664.27
+
+Restoration MSE: 661.64
+
+Restoration MSE: 660.92
+
+Restoration MSE: 661.40
+
+Restoration MSE: 660.67
+
+Restoration MSE: 661.86
+
+Restoration MSE: 661.17
+
+Restoration MSE: 656.27
+
+Restoration MSE: 655.04
+
+Restoration MSE: 653.67
+
+Restoration MSE: 652.49
+
+Restoration MSE: 654.17
+
+Restoration MSE: 653.92
+
+Restoration MSE: 654.01
+
+Restoration MSE: 653.26
+
+Restoration MSE: 653.91
+
+Restoration MSE: 653.28
+
+Restoration MSE: 653.01
+
+Restoration MSE: 652.23
+
+Restoration MSE: 649.82
+
+Restoration MSE: 648.93
+
+Restoration MSE: 647.86
+
+Restoration MSE: 647.14
+
+Restoration MSE: 645.45
+
+Restoration MSE: 644.76
+
+Restoration MSE: 644.69
+
+Restoration MSE: 644.76
+
+Restoration MSE: 644.39
+
+Restoration MSE: 643.50
+
+Restoration MSE: 642.15
+
+Restoration MSE: 641.46
+
+Restoration MSE: 638.20
+
+Restoration MSE: 637.47
+
+Restoration MSE: 637.46
+
+Restoration MSE: 636.81
+
+Restoration MSE: 636.76
+
+Restoration MSE: 636.27
+
+Restoration MSE: 634.98
+
+Restoration MSE: 634.26
+
+Restoration MSE: 635.36
+
+Restoration MSE: 635.41
+
+Restoration MSE: 634.52
+
+Restoration MSE: 633.85
+
+Restoration MSE: 632.37
+
+Restoration MSE: 631.74
+
+Restoration MSE: 631.25
+
+Restoration MSE: 631.34
+
+Restoration MSE: 629.05
+
+Restoration MSE: 628.20
+
+Restoration MSE: 627.43
+
+Restoration MSE: 626.59
+
+Restoration MSE: 625.58
+
+Restoration MSE: 625.21
+
+Restoration MSE: 624.60
+
+Restoration MSE: 624.07
+
+Restoration MSE: 622.25
+
+Restoration MSE: 621.21
+
+Restoration MSE: 620.77
+
+Restoration MSE: 620.14
+
+Restoration MSE: 620.42
+
+Restoration MSE: 620.00
+
+Restoration MSE: 618.81
+
+Restoration MSE: 617.86
+
+Restoration MSE: 616.85
+
+Restoration MSE: 616.34
+
+Restoration MSE: 617.53
+
+Restoration MSE: 617.04
+
+Restoration MSE: 615.91
+
+Restoration MSE: 615.22
+
+Restoration MSE: 612.54
+
+Restoration MSE: 612.03
+
+Restoration MSE: 612.60
+
+Restoration MSE: 612.07
+
+Restoration MSE: 609.94
+
+Restoration MSE: 609.21
+
+Restoration MSE: 607.09
+
+Restoration MSE: 606.36
+
+Restoration MSE: 607.11
+
+Restoration MSE: 606.58
+
+Restoration MSE: 604.42
+
+Restoration MSE: 603.84
+
+Restoration MSE: 604.03
+
+Restoration MSE: 603.98
+
+Restoration MSE: 604.09
+
+Restoration MSE: 603.24
+
+Restoration MSE: 601.67
+
+Restoration MSE: 600.87
+
+Restoration MSE: 601.38
+
+Restoration MSE: 600.68
+
+Restoration MSE: 599.68
+
+Restoration MSE: 598.99
+
+Restoration MSE: 599.10
+
+Restoration MSE: 598.89
+
+Restoration MSE: 598.52
+
+Restoration MSE: 597.84
+
+Restoration MSE: 594.69
+
+Restoration MSE: 593.98
+
+Restoration MSE: 593.31
+
+Restoration MSE: 592.80
+
+Restoration MSE: 592.47
+
+Restoration MSE: 591.70
+
+Restoration MSE: 591.17
+
+Restoration MSE: 590.21
+
+Restoration MSE: 587.36
+
+Restoration MSE: 586.48
+
+Restoration MSE: 586.70
+
+Restoration MSE: 586.41
+
+Restoration MSE: 586.86
+
+Restoration MSE: 586.47
+
+Restoration MSE: 585.02
+
+Restoration MSE: 584.06
+
+Restoration MSE: 586.08
+
+Restoration MSE: 585.43
+
+Restoration MSE: 585.22
+
+Restoration MSE: 584.57
+
+Restoration MSE: 582.12
+
+Restoration MSE: 581.39
+
+Restoration MSE: 580.23
+
+Restoration MSE: 579.50
+
+Restoration MSE: 577.19
+
+Restoration MSE: 576.49
+
+Restoration MSE: 575.77
+
+Restoration MSE: 575.38
+
+Restoration MSE: 575.72
+
+Restoration MSE: 575.25
+
+Restoration MSE: 575.06
+
+Restoration MSE: 574.22
+
+Restoration MSE: 574.00
+
+Restoration MSE: 573.29
+
+Restoration MSE: 571.47
+
+Restoration MSE: 570.78
+
+Restoration MSE: 571.07
+
+Restoration MSE: 570.40
+
+Restoration MSE: 570.88
+
+Restoration MSE: 570.29
+
+Restoration MSE: 565.27
+
+Restoration MSE: 564.40
+
+Restoration MSE: 562.44
+
+Restoration MSE: 561.83
+
+Restoration MSE: 563.25
+
+Restoration MSE: 563.15
+
+Restoration MSE: 563.46
+
+Restoration MSE: 562.53
+
+Restoration MSE: 561.50
+
+Restoration MSE: 560.98
+
+Restoration MSE: 561.25
+
+Restoration MSE: 560.62
+
+Restoration MSE: 558.23
+
+Restoration MSE: 557.50
+
+Restoration MSE: 555.89
+
+Restoration MSE: 555.37
+
+Restoration MSE: 552.88
+
+Restoration MSE: 552.23
+
+Restoration MSE: 553.43
+
+Restoration MSE: 553.22
+
+Restoration MSE: 553.01
+
+Restoration MSE: 552.56
+
+Restoration MSE: 549.98
+
+Restoration MSE: 549.25
+
+Restoration MSE: 547.47
+
+Restoration MSE: 546.87
+
+Restoration MSE: 546.73
+
+Restoration MSE: 546.33
+
+Restoration MSE: 545.61
+
+Restoration MSE: 544.63
+
+Restoration MSE: 543.40
+
+Restoration MSE: 542.58
+
+Restoration MSE: 544.64
+
+Restoration MSE: 543.93
+
+Restoration MSE: 543.05
+
+Restoration MSE: 542.34
+
+Restoration MSE: 541.66
+
+Restoration MSE: 540.99
+
+Restoration MSE: 540.49
+
+Restoration MSE: 539.83
+
+Restoration MSE: 539.34
+
+Restoration MSE: 538.46
+
+Restoration MSE: 537.76
+
+Restoration MSE: 536.97
+
+Restoration MSE: 535.16
+
+Restoration MSE: 534.68
+
+Restoration MSE: 534.10
+
+Restoration MSE: 533.74
+
+Restoration MSE: 531.27
+
+Restoration MSE: 530.33
+
+Restoration MSE: 529.04
+
+Restoration MSE: 528.70
+
+Restoration MSE: 527.65
+
+Restoration MSE: 527.06
+
+Restoration MSE: 526.77
+
+Restoration MSE: 525.97
+
+Restoration MSE: 525.99
+
+Restoration MSE: 525.35
+
+Restoration MSE: 525.98
+
+Restoration MSE: 525.54
+
+Restoration MSE: 525.28
+
+Restoration MSE: 524.76
+
+Restoration MSE: 522.60
+
+Restoration MSE: 521.86
+
+Restoration MSE: 521.04
+
+Restoration MSE: 520.92
+
+Restoration MSE: 518.29
+
+Restoration MSE: 517.66
+
+Restoration MSE: 515.95
+
+Restoration MSE: 515.14
+
+Restoration MSE: 516.33
+
+Restoration MSE: 515.73
+
+Restoration MSE: 512.04
+
+Restoration MSE: 511.40
+
+Restoration MSE: 512.37
+
+Restoration MSE: 511.88
+
+Restoration MSE: 511.97
+
+Restoration MSE: 511.05
+
+Restoration MSE: 508.81
+
+Restoration MSE: 508.03
+
+Restoration MSE: 509.50
+
+Restoration MSE: 508.57
+
+Restoration MSE: 507.71
+
+Restoration MSE: 506.98
+
+Restoration MSE: 507.03
+
+Restoration MSE: 506.75
+
+Restoration MSE: 506.29
+
+Restoration MSE: 505.77
+
+Restoration MSE: 502.06
+
+Restoration MSE: 501.30
+
+Restoration MSE: 500.70
+
+Restoration MSE: 499.89
+
+Restoration MSE: 499.62
+
+Restoration MSE: 498.82
+
+Restoration MSE: 498.15
+
+Restoration MSE: 497.33
+
+Restoration MSE: 494.34
+
+Restoration MSE: 493.50
+
+Restoration MSE: 492.84
+
+Restoration MSE: 492.25
+
+Restoration MSE: 491.77
+
+Restoration MSE: 491.12
+
+Restoration MSE: 490.42
+
+Restoration MSE: 489.55
+
+Restoration MSE: 489.50
+
+Restoration MSE: 488.79
+
+Restoration MSE: 489.41
+
+Restoration MSE: 488.49
+
+Restoration MSE: 486.86
+
+Restoration MSE: 486.20
+
+Restoration MSE: 484.21
+
+Restoration MSE: 483.61
+
+Restoration MSE: 481.31
+
+Restoration MSE: 480.59
+
+Restoration MSE: 479.33
+
+Restoration MSE: 478.92
+
+Restoration MSE: 479.40
+
+Restoration MSE: 478.83
+
+Restoration MSE: 478.83
+
+Restoration MSE: 477.98
+
+Restoration MSE: 478.47
+
+Restoration MSE: 477.75
+
+Restoration MSE: 476.33
+
+Restoration MSE: 475.63
+
+Restoration MSE: 475.32
+
+Restoration MSE: 474.69
+
+Restoration MSE: 474.76
+
+Restoration MSE: 474.16
+
+Restoration MSE: 468.50
+
+Restoration MSE: 467.72
+
+Restoration MSE: 466.36
+
+Restoration MSE: 465.53
+
+Restoration MSE: 465.93
+
+Restoration MSE: 465.66
+
+Restoration MSE: 465.76
+
+Restoration MSE: 465.23
+
+Restoration MSE: 465.74
+
+Restoration MSE: 464.93
+
+Restoration MSE: 464.30
+
+Restoration MSE: 463.61
+
+Restoration MSE: 461.68
+
+Restoration MSE: 460.94
+
+Restoration MSE: 460.23
+
+Restoration MSE: 459.55
+
+Restoration MSE: 458.64
+
+Restoration MSE: 457.97
+
+Restoration MSE: 458.10
+
+Restoration MSE: 457.59
+
+Restoration MSE: 456.75
+
+Restoration MSE: 456.09
+
+Restoration MSE: 454.62
+
+Restoration MSE: 453.95
+
+Restoration MSE: 452.82
+
+Restoration MSE: 452.11
+
+Restoration MSE: 451.78
+
+Restoration MSE: 451.17
+
+Restoration MSE: 450.48
+
+Restoration MSE: 449.63
+
+Restoration MSE: 448.57
+
+Restoration MSE: 447.93
+
+Restoration MSE: 447.76
+
+Restoration MSE: 447.58
+
+Restoration MSE: 447.45
+
+Restoration MSE: 446.72
+
+Restoration MSE: 446.07
+
+Restoration MSE: 445.37
+
+Restoration MSE: 444.23
+
+Restoration MSE: 444.01
+
+Restoration MSE: 442.27
+
+Restoration MSE: 441.42
+
+Restoration MSE: 440.48
+
+Restoration MSE: 439.75
+
+Restoration MSE: 438.74
+
+Restoration MSE: 438.19
+
+Restoration MSE: 437.94
+
+Restoration MSE: 437.35
+
+Restoration MSE: 435.66
+
+Restoration MSE: 434.92
+
+Restoration MSE: 434.47
+
+Restoration MSE: 433.86
+
+Restoration MSE: 433.21
+
+Restoration MSE: 432.88
+
+Restoration MSE: 431.77
+
+Restoration MSE: 431.03
+
+Restoration MSE: 431.72
+
+Restoration MSE: 431.06
+
+Restoration MSE: 431.20
+
+Restoration MSE: 430.54
+
+Restoration MSE: 429.57
+
+Restoration MSE: 429.04
+
+Restoration MSE: 427.48
+
+Restoration MSE: 426.66
+
+Restoration MSE: 425.71
+
+Restoration MSE: 425.20
+
+Restoration MSE: 423.29
+
+Restoration MSE: 422.60
+
+Restoration MSE: 420.68
+
+Restoration MSE: 420.14
+
+Restoration MSE: 420.79
+
+Restoration MSE: 420.28
+
+Restoration MSE: 419.12
+
+Restoration MSE: 418.68
+
+Restoration MSE: 418.27
+
+Restoration MSE: 417.71
+
+Restoration MSE: 417.19
+
+Restoration MSE: 416.41
+
+Restoration MSE: 415.47
+
+Restoration MSE: 414.73
+
+Restoration MSE: 415.48
+
+Restoration MSE: 414.87
+
+Restoration MSE: 413.47
+
+Restoration MSE: 412.78
+
+Restoration MSE: 412.52
+
+Restoration MSE: 411.79
+
+Restoration MSE: 411.76
+
+Restoration MSE: 411.22
+
+Restoration MSE: 408.62
+
+Restoration MSE: 407.96
+
+Restoration MSE: 407.50
+
+Restoration MSE: 406.96
+
+Restoration MSE: 405.97
+
+Restoration MSE: 405.28
+
+Restoration MSE: 404.66
+
+Restoration MSE: 404.24
+
+Restoration MSE: 403.89
+
+Restoration MSE: 403.56
+
+Restoration MSE: 402.27
+
+Restoration MSE: 402.28
+
+Restoration MSE: 402.16
+
+Restoration MSE: 401.68
+
+Restoration MSE: 402.27
+
+Restoration MSE: 401.94
+
+Restoration MSE: 402.80
+
+Restoration MSE: 402.51
+
+Restoration MSE: 402.03
+
+Restoration MSE: 401.85
+
+Restoration MSE: 401.38
+
+Restoration MSE: 401.01
+
+Restoration MSE: 400.77
+
+Restoration MSE: 400.44
+
+Restoration MSE: 397.82
+
+Restoration MSE: 397.45
+
+Restoration MSE: 396.96
+
+Restoration MSE: 396.75
+
+Restoration MSE: 397.08
+
+Restoration MSE: 396.90
+
+Restoration MSE: 396.82
+
+Restoration MSE: 396.50
+
+Restoration MSE: 396.77
+
+Restoration MSE: 396.40
+
+Restoration MSE: 395.18
+
+Restoration MSE: 394.88
+
+Restoration MSE: 394.88
+
+Restoration MSE: 394.49
+
+Restoration MSE: 395.04
+
+Restoration MSE: 394.76
+
+Restoration MSE: 391.83
+
+Restoration MSE: 391.68
+
+Restoration MSE: 391.33
+
+Restoration MSE: 390.87
+
+Restoration MSE: 391.21
+
+Restoration MSE: 390.90
+
+Restoration MSE: 390.49
+
+Restoration MSE: 389.73
+
+Restoration MSE: 390.43
+
+Restoration MSE: 390.31
+
+Restoration MSE: 390.12
+
+Restoration MSE: 389.69
+
+Restoration MSE: 388.20
+
+Restoration MSE: 387.84
+
+Restoration MSE: 387.65
+
+Restoration MSE: 386.86
+
+Restoration MSE: 386.75
+
+Restoration MSE: 386.41
+
+Restoration MSE: 385.79
+
+Restoration MSE: 385.84
+
+Restoration MSE: 385.48
+
+Restoration MSE: 384.96
+
+Restoration MSE: 384.96
+
+Restoration MSE: 384.56
+
+Restoration MSE: 383.15
+
+Restoration MSE: 382.91
+
+Restoration MSE: 383.04
+
+Restoration MSE: 382.71
+
+Restoration MSE: 382.88
+
+Restoration MSE: 382.57
+
+Restoration MSE: 381.82
+
+Restoration MSE: 381.12
+
+Restoration MSE: 380.33
+
+Restoration MSE: 380.19
+
+Restoration MSE: 380.05
+
+Restoration MSE: 379.76
+
+Restoration MSE: 379.46
+
+Restoration MSE: 379.14
+
+Restoration MSE: 378.66
+
+Restoration MSE: 378.51
+
+Restoration MSE: 377.08
+
+Restoration MSE: 376.75
+
+Restoration MSE: 376.52
+
+Restoration MSE: 376.21
+
+Restoration MSE: 375.47
+
+Restoration MSE: 375.33
+
+Restoration MSE: 375.00
+
+Restoration MSE: 374.91
+
+Restoration MSE: 373.01
+
+Restoration MSE: 372.66
+
+Restoration MSE: 372.34
+
+Restoration MSE: 372.04
+
+Restoration MSE: 371.74
+
+Restoration MSE: 371.64
+
+Restoration MSE: 371.40
+
+Restoration MSE: 371.56
+
+Restoration MSE: 369.16
+
+Restoration MSE: 368.86
+
+Restoration MSE: 370.00
+
+Restoration MSE: 369.58
+
+Restoration MSE: 368.98
+
+Restoration MSE: 368.63
+
+Restoration MSE: 366.92
+
+Restoration MSE: 366.62
+
+Restoration MSE: 367.75
+
+Restoration MSE: 367.48
+
+Restoration MSE: 367.19
+
+Restoration MSE: 367.13
+
+Restoration MSE: 366.29
+
+Restoration MSE: 365.61
+
+Restoration MSE: 365.29
+
+Restoration MSE: 364.73
+
+Restoration MSE: 363.79
+
+Restoration MSE: 363.41
+
+Restoration MSE: 363.64
+
+Restoration MSE: 363.43
+
+Restoration MSE: 364.09
+
+Restoration MSE: 363.92
+
+Restoration MSE: 363.06
+
+Restoration MSE: 362.98
+
+Restoration MSE: 364.08
+
+Restoration MSE: 363.60
+
+Restoration MSE: 362.52
+
+Restoration MSE: 362.28
+
+Restoration MSE: 362.47
+
+Restoration MSE: 362.19
+
+Restoration MSE: 362.59
+
+Restoration MSE: 362.54
+
+Restoration MSE: 360.14
+
+Restoration MSE: 359.81
+
+Restoration MSE: 359.43
+
+Restoration MSE: 359.60
+
+Restoration MSE: 359.83
+
+Restoration MSE: 359.59
+
+Restoration MSE: 359.20
+
+Restoration MSE: 358.70
+
+Restoration MSE: 357.40
+
+Restoration MSE: 357.11
+
+Restoration MSE: 356.60
+
+Restoration MSE: 356.13
+
+Restoration MSE: 356.07
+
+Restoration MSE: 355.60
+
+Restoration MSE: 356.05
+
+Restoration MSE: 356.35
+
+Restoration MSE: 356.87
+
+Restoration MSE: 356.59
+
+Restoration MSE: 356.22
+
+Restoration MSE: 356.12
+
+Restoration MSE: 355.51
+
+Restoration MSE: 355.24
+
+Restoration MSE: 354.99
+
+Restoration MSE: 354.77
+
+Restoration MSE: 353.05
+
+Restoration MSE: 352.90
+
+Restoration MSE: 352.36
+
+Restoration MSE: 351.95
+
+Restoration MSE: 352.51
+
+Restoration MSE: 352.49
+
+Restoration MSE: 352.67
+
+Restoration MSE: 352.46
+
+Restoration MSE: 353.00
+
+Restoration MSE: 352.53
+
+Restoration MSE: 351.63
+
+Restoration MSE: 351.28
+
+Restoration MSE: 352.25
+
+Restoration MSE: 352.17
+
+Restoration MSE: 352.57
+
+Restoration MSE: 352.44
+
+Restoration MSE: 349.43
+
+Restoration MSE: 349.25
+
+Restoration MSE: 349.04
+
+Restoration MSE: 348.71
+
+Restoration MSE: 349.36
+
+Restoration MSE: 349.37
+
+Restoration MSE: 348.99
+
+Restoration MSE: 349.04
+
+Restoration MSE: 348.92
+
+Restoration MSE: 348.98
+
+Restoration MSE: 349.25
+
+Restoration MSE: 348.77
+
+Restoration MSE: 348.16
+
+Restoration MSE: 347.40
+
+Restoration MSE: 347.18
+
+Restoration MSE: 347.22
+
+Restoration MSE: 346.38
+
+Restoration MSE: 345.99
+
+Restoration MSE: 346.01
+
+Restoration MSE: 346.01
+
+Restoration MSE: 345.45
+
+Restoration MSE: 345.04
+
+Restoration MSE: 345.16
+
+Restoration MSE: 345.22
+
+Restoration MSE: 346.72
+
+Restoration MSE: 346.26
+
+Restoration MSE: 346.27
+
+Restoration MSE: 346.04
+
+Restoration MSE: 346.45
+
+Restoration MSE: 346.32
+
+Restoration MSE: 345.84
+
+Restoration MSE: 345.36
+
+Restoration MSE: 346.16
+
+Restoration MSE: 345.86
+
+Restoration MSE: 345.82
+
+Restoration MSE: 345.90
+
+Restoration MSE: 347.04
+
+Restoration MSE: 347.10
+
+Restoration MSE: 346.79
+
+Restoration MSE: 346.30
+
+Restoration MSE: 346.75
+
+Restoration MSE: 345.70
+
+Restoration MSE: 346.30
+
+Restoration MSE: 346.30
+
+Restoration MSE: 346.15
+
+Restoration MSE: 345.65
+
+Restoration MSE: 344.76
+
+Restoration MSE: 344.92
+
+Restoration MSE: 344.27
+
+Restoration MSE: 343.86
+
+Restoration MSE: 343.98
+
+Restoration MSE: 344.18
+
+Restoration MSE: 344.04
+
+Restoration MSE: 343.38
+
+Restoration MSE: 343.04
+
+Restoration MSE: 343.03
+
+Restoration MSE: 344.30
+
+Restoration MSE: 343.81
+
+Restoration MSE: 344.61
+
+Restoration MSE: 345.07
+
+Restoration MSE: 344.98
+
+Restoration MSE: 344.01
+
+Restoration MSE: 342.57
+
+Restoration MSE: 342.35
+
+Restoration MSE: 343.60
+
+Restoration MSE: 342.38
+
+Restoration MSE: 341.66
+
+Restoration MSE: 342.40
+
+Restoration MSE: 341.93
+
+Restoration MSE: 340.75
+
+Restoration MSE: 340.92
+
+Restoration MSE: 342.73
+
+Restoration MSE: 340.95
+
+Restoration MSE: 340.33
+
+Restoration MSE: 340.53
+
+Restoration MSE: 340.29
+
+Restoration MSE: 340.46
+
+Restoration MSE: 339.97
+
+Restoration MSE: 339.53
+
+Restoration MSE: 340.21
+
+Restoration MSE: 343.15
+
+Restoration MSE: 342.67
+
+Restoration MSE: 341.65
+
+Restoration MSE: 341.46
+
+Restoration MSE: 341.71
+
+Restoration MSE: 341.37
+
+Restoration MSE: 341.91
+
+Restoration MSE: 341.56
+
+Restoration MSE: 339.81
+
+Restoration MSE: 338.87
+
+Restoration MSE: 339.57
+
+Restoration MSE: 340.31
+
+Restoration MSE: 341.18
+
+Restoration MSE: 340.59
+
+Restoration MSE: 338.99
+
+Restoration MSE: 337.99
+
+Restoration MSE: 338.28
+
+Restoration MSE: 337.98
+
+Restoration MSE: 336.98
+
+Restoration MSE: 336.90
+
+Restoration MSE: 337.35
+
+Restoration MSE: 337.47
+
+Restoration MSE: 337.41
+
+Restoration MSE: 337.07
+
+Restoration MSE: 337.20
+
+Restoration MSE: 338.09
+
+Restoration MSE: 338.63
+
+Restoration MSE: 337.55
+
+Restoration MSE: 336.55
+
+Restoration MSE: 336.59
+
+Restoration MSE: 336.13
+
+Restoration MSE: 335.20
+
+Restoration MSE: 333.34
+
+Restoration MSE: 333.21
+
+Restoration MSE: 333.60
+
+Restoration MSE: 334.40
+
+Restoration MSE: 334.74
+
+Restoration MSE: 334.57
+
+Restoration MSE: 334.29
+
+Restoration MSE: 334.08
+
+Restoration MSE: 334.54
+
+Restoration MSE: 333.41
+
+Restoration MSE: 331.93
+
+Restoration MSE: 332.37
+
+Restoration MSE: 334.09
+
+Restoration MSE: 333.26
+
+Restoration MSE: 332.29
+
+Restoration MSE: 332.36
+
+Restoration MSE: 329.98
+
+Restoration MSE: 329.16
+
+Restoration MSE: 328.13
+
+Restoration MSE: 328.84
+
+Restoration MSE: 329.45
+
+Restoration MSE: 328.92
+
+Restoration MSE: 328.96
+
+Restoration MSE: 329.18
+
+Restoration MSE: 329.87
+
+Restoration MSE: 329.49
+
+Restoration MSE: 329.82
+
+Restoration MSE: 330.45
+
+Restoration MSE: 330.19
+
+Restoration MSE: 329.19
+
+Restoration MSE: 327.77
+
+Restoration MSE: 327.18
+
+Restoration MSE: 327.93
+
+Restoration MSE: 325.98
+
+Restoration MSE: 325.91
+
+Restoration MSE: 325.47
+
+Restoration MSE: 325.56
+
+Restoration MSE: 325.18
+
+Restoration MSE: 324.75
+
+Restoration MSE: 325.28
+
+Restoration MSE: 324.88
+
+Restoration MSE: 323.35
+
+Restoration MSE: 323.87
+
+Restoration MSE: 325.07
+
+Restoration MSE: 324.87
+
+Restoration MSE: 323.12
+
+Restoration MSE: 321.80
+
+Restoration MSE: 321.68
+
+Restoration MSE: 323.26
+
+Restoration MSE: 322.41
+
+Restoration MSE: 321.78
+
+Restoration MSE: 321.85
+
+Restoration MSE: 321.07
+
+Restoration MSE: 320.12
+
+Restoration MSE: 320.70
+
+Restoration MSE: 322.38
+
+Restoration MSE: 318.71
+
+Restoration MSE: 318.86
+
+Restoration MSE: 319.23
+
+Restoration MSE: 318.85
+
+Restoration MSE: 317.64
+
+Restoration MSE: 317.66
+
+Restoration MSE: 317.43
+
+Restoration MSE: 317.89
+
+Restoration MSE: 316.07
+
+Restoration MSE: 316.58
+
+Restoration MSE: 316.88
+
+Restoration MSE: 316.69
+
+Restoration MSE: 317.78
+
+Restoration MSE: 317.17
+
+Restoration MSE: 315.47
+
+Restoration MSE: 314.99
+
+Restoration MSE: 314.12
+
+Restoration MSE: 313.69
+
+Restoration MSE: 314.43
+
+Restoration MSE: 314.85
+
+Restoration MSE: 314.68
+
+Restoration MSE: 313.75
+
+Restoration MSE: 312.19
+
+Restoration MSE: 312.50
+
+Restoration MSE: 312.97
+
+Restoration MSE: 311.16
+
+Restoration MSE: 309.55
+
+Restoration MSE: 310.43
+
+Restoration MSE: 311.05
+
+Restoration MSE: 310.37
+
+Restoration MSE: 309.80
+
+Restoration MSE: 309.16
+
+Restoration MSE: 307.79
+
+Restoration MSE: 306.73
+
+Restoration MSE: 307.01
+
+Restoration MSE: 307.55
+
+Restoration MSE: 307.61
+
+Restoration MSE: 306.50
+
+Restoration MSE: 305.50
+
+Restoration MSE: 305.70
+
+Restoration MSE: 308.35
+
+Restoration MSE: 307.35
+
+Restoration MSE: 305.45
+
+Restoration MSE: 304.15
+
+Restoration MSE: 304.78
+
+Restoration MSE: 305.32
+
+Restoration MSE: 305.17
+
+Restoration MSE: 304.77
+
+Restoration MSE: 304.15
+
+Restoration MSE: 303.55
+
+Restoration MSE: 303.13
+
+Restoration MSE: 302.67
+
+Restoration MSE: 303.08
+
+Restoration MSE: 301.90
+
+Restoration MSE: 301.07
+
+Restoration MSE: 301.85
+
+Restoration MSE: 300.49
+
+Restoration MSE: 299.56
+
+Restoration MSE: 299.13
+
+Restoration MSE: 298.34
+
+Restoration MSE: 297.30
+
+Restoration MSE: 296.73
+
+Restoration MSE: 296.54
+
+Restoration MSE: 297.22
+
+Restoration MSE: 299.61
+
+Restoration MSE: 297.97
+
+Restoration MSE: 297.27
+
+Restoration MSE: 297.50
+
+Restoration MSE: 297.23
+
+Restoration MSE: 297.01
+
+Restoration MSE: 295.91
+
+Restoration MSE: 295.94
+
+Restoration MSE: 295.94
+
+Restoration MSE: 294.26
+
+Restoration MSE: 293.39
+
+Restoration MSE: 293.68
+
+Restoration MSE: 293.57
+
+Restoration MSE: 292.51
+
+Restoration MSE: 291.55
+
+Restoration MSE: 292.44
+
+Restoration MSE: 293.89
+
+Restoration MSE: 292.08
+
+Restoration MSE: 290.65
+
+Restoration MSE: 290.73
+
+Restoration MSE: 290.95
+
+Restoration MSE: 290.04
+
+Restoration MSE: 290.72
+
+Restoration MSE: 291.70
+
+Restoration MSE: 288.66
+
+Restoration MSE: 287.91
+
+Restoration MSE: 286.62
+
+Restoration MSE: 285.79
+
+Restoration MSE: 286.70
+
+Restoration MSE: 286.40
+
+Restoration MSE: 285.85
+
+Restoration MSE: 286.16
+
+Restoration MSE: 285.45
+
+Restoration MSE: 285.19
+
+Restoration MSE: 285.70
+
+Restoration MSE: 285.23
+
+Restoration MSE: 283.90
+
+Restoration MSE: 283.27
+
+Restoration MSE: 282.81
+
+Restoration MSE: 283.41
+
+Restoration MSE: 282.83
+
+Restoration MSE: 281.70
+
+Restoration MSE: 281.22
+
+Restoration MSE: 281.33
+
+Restoration MSE: 281.01
+
+Restoration MSE: 278.91
+
+Restoration MSE: 278.29
+
+Restoration MSE: 280.47
+
+Restoration MSE: 280.30
+
+Restoration MSE: 277.59
+
+Restoration MSE: 276.31
+
+Restoration MSE: 276.92
+
+Restoration MSE: 277.14
+
+Restoration MSE: 276.05
+
+Restoration MSE: 275.47
+
+Restoration MSE: 275.32
+
+Restoration MSE: 276.18
+
+Restoration MSE: 274.00
+
+Restoration MSE: 273.60
+
+Restoration MSE: 273.17
+
+Restoration MSE: 272.47
+
+Restoration MSE: 273.07
+
+Restoration MSE: 273.14
+
+Restoration MSE: 272.64
+
+Restoration MSE: 271.83
+
+Restoration MSE: 270.85
+
+Restoration MSE: 270.92
+
+Restoration MSE: 270.13
+
+Restoration MSE: 269.19
+
+Restoration MSE: 268.14
+
+Restoration MSE: 267.82
+
+Restoration MSE: 268.56
+
+Restoration MSE: 267.20
+
+Restoration MSE: 266.23
+
+Restoration MSE: 265.86
+
+Restoration MSE: 266.13
+
+Restoration MSE: 265.27
+
+Restoration MSE: 264.30
+
+Restoration MSE: 263.37
+
+Restoration MSE: 263.06
+
+Restoration MSE: 264.14
+
+Restoration MSE: 262.02
+
+Restoration MSE: 262.02
+
+Restoration MSE: 262.67
+
+Restoration MSE: 262.68
+
+Restoration MSE: 261.47
+
+Restoration MSE: 259.78
+
+Restoration MSE: 259.98
+
+Restoration MSE: 259.29
+
+Restoration MSE: 258.16
+
+Restoration MSE: 257.14
+
+Restoration MSE: 257.18
+
+Restoration MSE: 256.72
+
+Restoration MSE: 256.07
+
+Restoration MSE: 256.16
+
+Restoration MSE: 256.53
+
+Restoration MSE: 254.01
+
+Restoration MSE: 253.10
+
+Restoration MSE: 253.41
+
+Restoration MSE: 253.41
+
+Restoration MSE: 253.37
+
+Restoration MSE: 252.22
+
+Restoration MSE: 251.22
+
+Restoration MSE: 251.36
+
+Restoration MSE: 251.13
+
+Restoration MSE: 251.07
+
+Restoration MSE: 251.26
+
+Restoration MSE: 250.41
+
+Restoration MSE: 249.69
+
+Restoration MSE: 249.07
+
+Restoration MSE: 248.93
+
+Restoration MSE: 249.21
+
+Restoration MSE: 248.92
+
+Restoration MSE: 247.07
+
+Restoration MSE: 246.50
+
+Restoration MSE: 246.47
+
+Restoration MSE: 246.41
+
+Restoration MSE: 245.27
+
+Restoration MSE: 244.99
+
+Restoration MSE: 245.33
+
+Restoration MSE: 244.84
+
+Restoration MSE: 243.36
+
+Restoration MSE: 242.60
+
+Restoration MSE: 242.26
+
+Restoration MSE: 242.28
+
+Restoration MSE: 241.22
+
+Restoration MSE: 241.08
+
+Restoration MSE: 241.40
+
+Restoration MSE: 241.34
+
+Restoration MSE: 240.15
+
+Restoration MSE: 239.79
+
+Restoration MSE: 239.42
+
+Restoration MSE: 238.03
+
+Restoration MSE: 237.29
+
+Restoration MSE: 236.58
+
+Restoration MSE: 236.47
+
+Restoration MSE: 236.84
+
+Restoration MSE: 235.35
+
+Restoration MSE: 234.52
+
+Restoration MSE: 234.60
+
+Restoration MSE: 234.69
+
+Restoration MSE: 234.21
+
+Restoration MSE: 234.28
+
+Restoration MSE: 234.48
+
+Restoration MSE: 234.79
+
+Restoration MSE: 233.97
+
+Restoration MSE: 232.49
+
+Restoration MSE: 231.74
+
+Restoration MSE: 231.63
+
+Restoration MSE: 231.60
+
+Restoration MSE: 232.49
+
+Restoration MSE: 232.36
+
+Restoration MSE: 229.82
+
+Restoration MSE: 228.96
+
+Restoration MSE: 227.92
+
+Restoration MSE: 227.70
+
+Restoration MSE: 228.12
+
+Restoration MSE: 227.94
+
+Restoration MSE: 227.90
+
+Restoration MSE: 227.63
+
+Restoration MSE: 226.71
+
+Restoration MSE: 226.15
+
+Restoration MSE: 226.36
+
+Restoration MSE: 226.17
+
+Restoration MSE: 225.04
+
+Restoration MSE: 224.54
+
+Restoration MSE: 223.63
+
+Restoration MSE: 223.84
+
+Restoration MSE: 224.52
+
+Restoration MSE: 223.54
+
+Restoration MSE: 222.90
+
+Restoration MSE: 222.53
+
+Restoration MSE: 222.28
+
+Restoration MSE: 221.87
+
+Restoration MSE: 221.52
+
+Restoration MSE: 221.41
+
+Restoration MSE: 220.01
+
+Restoration MSE: 219.58
+
+Restoration MSE: 219.24
+
+Restoration MSE: 218.96
+
+Restoration MSE: 218.78
+
+Restoration MSE: 218.50
+
+Restoration MSE: 218.15
+
+Restoration MSE: 218.04
+
+Restoration MSE: 217.95
+
+Restoration MSE: 217.17
+
+Restoration MSE: 216.90
+
+Restoration MSE: 216.57
+
+Restoration MSE: 216.47
+
+Restoration MSE: 216.14
+
+Restoration MSE: 215.42
+
+Restoration MSE: 215.44
+
+Restoration MSE: 215.35
+
+Restoration MSE: 214.31
+
+Restoration MSE: 213.96
+
+Restoration MSE: 213.54
+
+Restoration MSE: 212.97
+
+Restoration MSE: 212.64
+
+Restoration MSE: 212.41
+
+Restoration MSE: 212.57
+
+Restoration MSE: 211.44
+
+Restoration MSE: 210.72
+
+Restoration MSE: 210.63
+
+Restoration MSE: 210.32
+
+Restoration MSE: 210.07
+
+Restoration MSE: 209.75
+
+Restoration MSE: 209.19
+
+Restoration MSE: 209.02
+
+Restoration MSE: 208.69
+
+Restoration MSE: 207.96
+
+Restoration MSE: 208.17
+
+Restoration MSE: 208.01
+
+Restoration MSE: 208.08
+
+Restoration MSE: 207.83
+
+Restoration MSE: 206.71
+
+Restoration MSE: 206.81
+
+Restoration MSE: 206.24
+
+Restoration MSE: 205.55
+
+Restoration MSE: 205.35
+
+Restoration MSE: 204.95
+
+Restoration MSE: 204.45
+
+Restoration MSE: 204.13
+
+Restoration MSE: 203.63
+
+Restoration MSE: 203.57
+
+Restoration MSE: 202.04
+
+Restoration MSE: 201.62
+
+Restoration MSE: 201.98
+
+Restoration MSE: 201.80
+
+Restoration MSE: 201.68
+
+Restoration MSE: 201.27
+
+Restoration MSE: 200.25
+
+Restoration MSE: 200.33
+
+Restoration MSE: 200.97
+
+Restoration MSE: 200.10
+
+Restoration MSE: 199.45
+
+Restoration MSE: 199.22
+
+Restoration MSE: 199.92
+
+Restoration MSE: 199.60
+
+Restoration MSE: 199.49
+
+Restoration MSE: 199.44
+
+Restoration MSE: 198.16
+
+Restoration MSE: 197.38
+
+Restoration MSE: 197.10
+
+Restoration MSE: 196.77
+
+Restoration MSE: 197.37
+
+Restoration MSE: 196.93
+
+Restoration MSE: 196.68
+
+Restoration MSE: 196.73
+
+Restoration MSE: 195.13
+
+Restoration MSE: 194.55
+
+Restoration MSE: 194.52
+
+Restoration MSE: 194.22
+
+Restoration MSE: 194.49
+
+Restoration MSE: 194.08
+
+Restoration MSE: 193.51
+
+Restoration MSE: 193.60
+
+Restoration MSE: 193.95
+
+Restoration MSE: 193.29
+
+Restoration MSE: 193.05
+
+Restoration MSE: 192.76
+
+Restoration MSE: 191.75
+
+Restoration MSE: 191.45
+
+Restoration MSE: 191.02
+
+Restoration MSE: 190.93
+
+Restoration MSE: 189.88
+
+Restoration MSE: 188.96
+
+Restoration MSE: 188.76
+
+Restoration MSE: 188.43
+
+Restoration MSE: 188.75
+
+Restoration MSE: 188.65
+
+Restoration MSE: 188.35
+
+Restoration MSE: 188.58
+
+Restoration MSE: 189.59
+
+Restoration MSE: 188.95
+
+Restoration MSE: 187.53
+
+Restoration MSE: 187.18
+
+Restoration MSE: 186.99
+
+Restoration MSE: 186.67
+
+Restoration MSE: 187.48
+
+Restoration MSE: 187.51
+
+Restoration MSE: 185.34
+
+Restoration MSE: 184.76
+
+Restoration MSE: 184.27
+
+Restoration MSE: 183.91
+
+Restoration MSE: 184.33
+
+Restoration MSE: 184.30
+
+Restoration MSE: 184.15
+
+Restoration MSE: 183.75
+
+Restoration MSE: 183.58
+
+Restoration MSE: 182.85
+
+Restoration MSE: 182.78
+
+Restoration MSE: 182.41
+
+Restoration MSE: 181.71
+
+Restoration MSE: 181.40
+
+Restoration MSE: 180.86
+
+Restoration MSE: 181.09
+
+Restoration MSE: 180.69
+
+Restoration MSE: 179.95
+
+Restoration MSE: 180.02
+
+Restoration MSE: 179.60
+
+Restoration MSE: 179.70
+
+Restoration MSE: 179.52
+
+Restoration MSE: 178.83
+
+Restoration MSE: 179.00
+
+Restoration MSE: 178.23
+
+Restoration MSE: 177.68
+
+Restoration MSE: 177.49
+
+Restoration MSE: 177.34
+
+Restoration MSE: 177.20
+
+Restoration MSE: 176.87
+
+Restoration MSE: 176.41
+
+Restoration MSE: 176.41
+
+Restoration MSE: 176.64
+
+Restoration MSE: 175.99
+
+Restoration MSE: 175.42
+
+Restoration MSE: 175.22
+
+Restoration MSE: 174.81
+
+Restoration MSE: 174.51
+
+Restoration MSE: 174.39
+
+Restoration MSE: 174.42
+
+Restoration MSE: 173.89
+
+Restoration MSE: 173.13
+
+Restoration MSE: 172.96
+
+Restoration MSE: 172.52
+
+Restoration MSE: 172.31
+
+Restoration MSE: 172.16
+
+Restoration MSE: 171.78
+
+Restoration MSE: 171.96
+
+Restoration MSE: 170.33
+
+Restoration MSE: 169.59
+
+Restoration MSE: 169.39
+
+Restoration MSE: 169.09
+
+Restoration MSE: 168.82
+
+Restoration MSE: 168.56
+
+Restoration MSE: 168.14
+
+Restoration MSE: 167.86
+
+Restoration MSE: 168.05
+
+Restoration MSE: 167.42
+
+Restoration MSE: 167.53
+
+Restoration MSE: 167.46
+
+Restoration MSE: 167.51
+
+Restoration MSE: 167.27
+
+Restoration MSE: 166.54
+
+Restoration MSE: 166.52
+
+Restoration MSE: 165.43
+
+Restoration MSE: 164.71
+
+Restoration MSE: 164.59
+
+Restoration MSE: 164.15
+
+Restoration MSE: 163.70
+
+Restoration MSE: 163.33
+
+Restoration MSE: 162.85
+
+Restoration MSE: 162.84
+
+Restoration MSE: 161.97
+
+Restoration MSE: 161.49
+
+Restoration MSE: 162.16
+
+Restoration MSE: 162.05
+
+Restoration MSE: 162.06
+
+Restoration MSE: 161.66
+
+Restoration MSE: 160.38
+
+Restoration MSE: 160.29
+
+Restoration MSE: 160.41
+
+Restoration MSE: 159.63
+
+Restoration MSE: 159.31
+
+Restoration MSE: 159.01
+
+Restoration MSE: 159.28
+
+Restoration MSE: 159.15
+
+Restoration MSE: 158.76
+
+Restoration MSE: 158.56
+
+Restoration MSE: 158.01
+
+Restoration MSE: 157.28
+
+Restoration MSE: 156.90
+
+Restoration MSE: 156.61
+
+Restoration MSE: 156.77
+
+Restoration MSE: 156.38
+
+Restoration MSE: 156.17
+
+Restoration MSE: 156.21
+
+Restoration MSE: 154.60
+
+Restoration MSE: 154.04
+
+Restoration MSE: 154.23
+
+Restoration MSE: 153.90
+
+Restoration MSE: 154.11
+
+Restoration MSE: 153.71
+
+Restoration MSE: 152.94
+
+Restoration MSE: 152.88
+
+Restoration MSE: 153.30
+
+Restoration MSE: 152.69
+
+Restoration MSE: 152.55
+
+Restoration MSE: 152.27
+
+Restoration MSE: 151.57
+
+Restoration MSE: 151.28
+
+Restoration MSE: 150.70
+
+Restoration MSE: 150.54
+
+Restoration MSE: 149.85
+
+Restoration MSE: 149.03
+
+Restoration MSE: 148.83
+
+Restoration MSE: 148.57
+
+Restoration MSE: 148.85
+
+Restoration MSE: 148.65
+
+Restoration MSE: 148.39
+
+Restoration MSE: 148.28
+
+Restoration MSE: 148.74
+
+Restoration MSE: 148.16
+
+Restoration MSE: 147.22
+
+Restoration MSE: 146.85
+
+Restoration MSE: 146.73
+
+Restoration MSE: 146.33
+
+Restoration MSE: 146.63
+
+Restoration MSE: 146.59
+
+Restoration MSE: 145.12
+
+Restoration MSE: 144.51
+
+Restoration MSE: 144.02
+
+Restoration MSE: 143.56
+
+Restoration MSE: 143.69
+
+Restoration MSE: 143.52
+
+Restoration MSE: 143.33
+
+Restoration MSE: 143.22
+
+Restoration MSE: 142.75
+
+Restoration MSE: 142.02
+
+Restoration MSE: 141.88
+
+Restoration MSE: 141.52
+
+Restoration MSE: 141.01
+
+Restoration MSE: 140.67
+
+Restoration MSE: 140.09
+
+Restoration MSE: 140.16
+
+Restoration MSE: 139.63
+
+Restoration MSE: 139.10
+
+Restoration MSE: 138.97
+
+Restoration MSE: 138.79
+
+Restoration MSE: 138.53
+
+Restoration MSE: 138.11
+
+Restoration MSE: 137.62
+
+Restoration MSE: 137.49
+
+Restoration MSE: 136.99
+
+Restoration MSE: 136.43
+
+Restoration MSE: 136.21
+
+Restoration MSE: 135.92
+
+Restoration MSE: 135.73
+
+Restoration MSE: 135.41
+
+Restoration MSE: 134.91
+
+Restoration MSE: 134.74
+
+Restoration MSE: 134.64
+
+Restoration MSE: 133.90
+
+Restoration MSE: 133.38
+
+Restoration MSE: 133.02
+
+Restoration MSE: 132.80
+
+Restoration MSE: 132.57
+
+Restoration MSE: 132.38
+
+Restoration MSE: 132.47
+
+Restoration MSE: 132.42
+
+Restoration MSE: 131.46
+
+Restoration MSE: 131.24
+
+Restoration MSE: 130.83
+
+Restoration MSE: 129.88
+
+Restoration MSE: 129.80
+
+Restoration MSE: 129.41
+
+Restoration MSE: 129.53
+
+Restoration MSE: 128.54
+
+Restoration MSE: 127.95
+
+Restoration MSE: 128.29
+
+Restoration MSE: 128.01
+
+Restoration MSE: 127.66
+
+Restoration MSE: 127.35
+
+Restoration MSE: 126.43
+
+Restoration MSE: 126.19
+
+Restoration MSE: 126.27
+
+Restoration MSE: 125.59
+
+Restoration MSE: 125.52
+
+Restoration MSE: 125.51
+
+Restoration MSE: 125.14
+
+Restoration MSE: 124.87
+
+Restoration MSE: 124.11
+
+Restoration MSE: 124.05
+
+Restoration MSE: 123.67
+
+Restoration MSE: 123.03
+
+Restoration MSE: 122.07
+
+Restoration MSE: 121.48
+
+Restoration MSE: 120.87
+
+Restoration MSE: 120.51
+
+Restoration MSE: 120.74
+
+Restoration MSE: 120.79
+
+Restoration MSE: 120.25
+
+Restoration MSE: 119.75
+
+Restoration MSE: 119.55
+
+Restoration MSE: 119.42
+
+Restoration MSE: 119.41
+
+Restoration MSE: 119.02
+
+Restoration MSE: 118.54
+
+Restoration MSE: 118.35
+
+Restoration MSE: 118.10
+
+Restoration MSE: 117.43
+
+Restoration MSE: 116.76
+
+Restoration MSE: 116.42
+
+Restoration MSE: 116.68
+
+Restoration MSE: 116.51
+
+Restoration MSE: 116.45
+
+Restoration MSE: 116.46
+
+Restoration MSE: 115.31
+
+Restoration MSE: 114.52
+
+Restoration MSE: 114.39
+
+Restoration MSE: 114.02
+
+Restoration MSE: 114.19
+
+Restoration MSE: 113.63
+
+Restoration MSE: 113.20
+
+Restoration MSE: 113.24
+
+Restoration MSE: 112.66
+
+Restoration MSE: 112.05
+
+Restoration MSE: 111.08
+
+Restoration MSE: 110.88
+
+Restoration MSE: 110.89
+
+Restoration MSE: 110.56
+
+Restoration MSE: 110.92
+
+Restoration MSE: 110.88
+
+Restoration MSE: 110.85
+
+Restoration MSE: 110.21
+
+Restoration MSE: 109.98
+
+Restoration MSE: 109.69
+
+Restoration MSE: 109.00
+
+Restoration MSE: 108.66
+
+Restoration MSE: 108.12
+
+Restoration MSE: 108.07
+
+Restoration MSE: 106.98
+
+Restoration MSE: 106.15
+
+Restoration MSE: 105.83
+
+Restoration MSE: 105.43
+
+Restoration MSE: 105.73
+
+Restoration MSE: 105.45
+
+Restoration MSE: 105.12
+
+Restoration MSE: 105.20
+
+Restoration MSE: 104.97
+
+Restoration MSE: 104.36
+
+Restoration MSE: 103.52
+
+Restoration MSE: 103.15
+
+Restoration MSE: 103.32
+
+Restoration MSE: 102.97
+
+Restoration MSE: 103.15
+
+Restoration MSE: 103.10
+
+Restoration MSE: 101.42
+
+Restoration MSE: 100.73
+
+Restoration MSE: 99.88
+
+Restoration MSE: 99.62
+
+Restoration MSE: 99.67
+
+Restoration MSE: 99.70
+
+Restoration MSE: 99.84
+
+Restoration MSE: 99.74
+
+Restoration MSE: 100.21
+
+Restoration MSE: 99.42
+
+Restoration MSE: 98.99
+
+Restoration MSE: 98.65
+
+Restoration MSE: 97.63
+
+Restoration MSE: 97.34
+
+Restoration MSE: 97.11
+
+Restoration MSE: 97.15
+
+Restoration MSE: 96.10
+
+Restoration MSE: 95.43
+
+Restoration MSE: 95.30
+
+Restoration MSE: 95.07
+
+Restoration MSE: 94.78
+
+Restoration MSE: 94.40
+
+Restoration MSE: 93.91
+
+Restoration MSE: 93.87
+
+Restoration MSE: 94.09
+
+Restoration MSE: 93.42
+
+Restoration MSE: 93.08
+
+Restoration MSE: 92.85
+
+Restoration MSE: 92.34
+
+Restoration MSE: 92.02
+
+Restoration MSE: 91.71
+
+Restoration MSE: 91.56
+
+Restoration MSE: 91.93
+
+Restoration MSE: 91.12
+
+Restoration MSE: 90.69
+
+Restoration MSE: 90.39
+
+Restoration MSE: 89.89
+
+Restoration MSE: 89.58
+
+Restoration MSE: 89.34
+
+Restoration MSE: 89.28
+
+Restoration MSE: 88.54
+
+Restoration MSE: 87.76
+
+Restoration MSE: 87.53
+
+Restoration MSE: 87.09
+
+Restoration MSE: 86.36
+
+Restoration MSE: 86.19
+
+Restoration MSE: 85.81
+
+Restoration MSE: 85.94
+
+Restoration MSE: 85.60
+
+Restoration MSE: 84.93
+
+Restoration MSE: 84.41
+
+Restoration MSE: 84.15
+
+Restoration MSE: 84.25
+
+Restoration MSE: 83.86
+
+Restoration MSE: 83.70
+
+Restoration MSE: 83.50
+
+Restoration MSE: 82.97
+
+Restoration MSE: 82.18
+
+Restoration MSE: 82.33
+
+Restoration MSE: 82.21
+
+Restoration MSE: 81.73
+
+Restoration MSE: 81.46
+
+Restoration MSE: 80.58
+
+Restoration MSE: 80.58
+
+Restoration MSE: 79.72
+
+Restoration MSE: 78.93
+
+Restoration MSE: 78.61
+
+Restoration MSE: 78.17
+
+Restoration MSE: 78.09
+
+Restoration MSE: 77.77
+
+Restoration MSE: 77.38
+
+Restoration MSE: 77.39
+
+Restoration MSE: 76.19
+
+Restoration MSE: 75.59
+
+Restoration MSE: 75.60
+
+Restoration MSE: 75.22
+
+Restoration MSE: 75.23
+
+Restoration MSE: 74.88
+
+Restoration MSE: 74.25
+
+Restoration MSE: 74.19
+
+Restoration MSE: 74.31
+
+Restoration MSE: 73.37
+
+Restoration MSE: 73.03
+
+Restoration MSE: 72.74
+
+Restoration MSE: 72.78
+
+Restoration MSE: 72.69
+
+Restoration MSE: 72.29
+
+Restoration MSE: 72.13
+
+Restoration MSE: 71.88
+
+Restoration MSE: 71.07
+
+Restoration MSE: 70.79
+
+Restoration MSE: 70.38
+
+Restoration MSE: 70.26
+
+Restoration MSE: 69.72
+
+Restoration MSE: 69.33
+
+Restoration MSE: 69.42
+
+Restoration MSE: 69.02
+
+Restoration MSE: 68.38
+
+Restoration MSE: 67.76
+
+Restoration MSE: 67.41
+
+Restoration MSE: 67.26
+
+Restoration MSE: 66.84
+
+Restoration MSE: 66.82
+
+Restoration MSE: 66.71
+
+Restoration MSE: 66.67
+
+Restoration MSE: 65.97
+
+Restoration MSE: 65.31
+
+Restoration MSE: 64.98
+
+Restoration MSE: 64.25
+
+Restoration MSE: 63.99
+
+Restoration MSE: 63.87
+
+Restoration MSE: 63.83
+
+Restoration MSE: 63.28
+
+Restoration MSE: 62.41
+
+Restoration MSE: 61.95
+
+Restoration MSE: 61.62
+
+Restoration MSE: 61.76
+
+Restoration MSE: 61.49
+
+Restoration MSE: 61.26
+
+Restoration MSE: 61.41
+
+Restoration MSE: 61.15
+
+Restoration MSE: 60.52
+
+Restoration MSE: 60.06
+
+Restoration MSE: 59.69
+
+Restoration MSE: 59.19
+
+Restoration MSE: 58.76
+
+Restoration MSE: 58.60
+
+Restoration MSE: 58.60
+
+Restoration MSE: 57.34
+
+Restoration MSE: 56.56
+
+Restoration MSE: 56.15
+
+Restoration MSE: 55.93
+
+Restoration MSE: 56.31
+
+Restoration MSE: 56.16
+
+Restoration MSE: 55.81
+
+Restoration MSE: 55.57
+
+Restoration MSE: 55.04
+
+Restoration MSE: 54.25
+
+Restoration MSE: 54.31
+
+Restoration MSE: 53.95
+
+Restoration MSE: 53.29
+
+Restoration MSE: 53.00
+
+Restoration MSE: 52.22
+
+Restoration MSE: 52.39
+
+Restoration MSE: 52.28
+
+Restoration MSE: 51.55
+
+Restoration MSE: 51.08
+
+Restoration MSE: 50.87
+
+Restoration MSE: 50.56
+
+Restoration MSE: 50.31
+
+Restoration MSE: 50.09
+
+Restoration MSE: 50.12
+
+Restoration MSE: 49.32
+
+Restoration MSE: 48.70
+
+Restoration MSE: 48.48
+
+Restoration MSE: 48.18
+
+Restoration MSE: 47.48
+
+Restoration MSE: 47.29
+
+Restoration MSE: 46.76
+
+Restoration MSE: 46.63
+
+Restoration MSE: 47.07
+
+Restoration MSE: 46.29
+
+Restoration MSE: 45.97
+
+Restoration MSE: 45.63
+
+Restoration MSE: 45.25
+
+Restoration MSE: 44.97
+
+Restoration MSE: 44.49
+
+Restoration MSE: 44.65
+
+Restoration MSE: 44.09
+
+Restoration MSE: 43.18
+
+Restoration MSE: 42.80
+
+Restoration MSE: 42.28
+
+Restoration MSE: 41.82
+
+Restoration MSE: 41.71
+
+Restoration MSE: 41.45
+
+Restoration MSE: 41.58
+
+Restoration MSE: 40.87
+
+Restoration MSE: 40.20
+
+Restoration MSE: 39.95
+
+Restoration MSE: 39.62
+
+Restoration MSE: 39.21
+
+Restoration MSE: 38.88
+
+Restoration MSE: 38.45
+
+Restoration MSE: 38.29
+
+Restoration MSE: 38.01
+
+Restoration MSE: 37.17
+
+Restoration MSE: 37.33
+
+Restoration MSE: 37.01
+
+Restoration MSE: 36.77
+
+Restoration MSE: 36.47
+
+Restoration MSE: 35.59
+
+Restoration MSE: 35.66
+
+Restoration MSE: 35.66
+
+Restoration MSE: 34.85
+
+Restoration MSE: 34.36
+
+Restoration MSE: 33.90
+
+Restoration MSE: 33.32
+
+Restoration MSE: 32.99
+
+Restoration MSE: 32.88
+
+Restoration MSE: 32.95
+
+Restoration MSE: 32.19
+
+Restoration MSE: 31.66
+
+Restoration MSE: 31.46
+
+Restoration MSE: 31.12
+
+Restoration MSE: 31.08
+
+Restoration MSE: 30.68
+
+Restoration MSE: 30.19
+
+Restoration MSE: 30.07
+
+Restoration MSE: 29.57
+
+Restoration MSE: 28.79
+
+Restoration MSE: 28.32
+
+Restoration MSE: 28.04
+
+Restoration MSE: 27.92
+
+Restoration MSE: 27.82
+
+Restoration MSE: 27.48
+
+Restoration MSE: 27.53
+
+Restoration MSE: 27.28
+
+Restoration MSE: 26.45
+
+Restoration MSE: 26.20
+
+Restoration MSE: 25.86
+
+Restoration MSE: 25.54
+
+Restoration MSE: 25.22
+
+Restoration MSE: 24.76
+
+Restoration MSE: 24.85
+
+Restoration MSE: 24.35
+
+Restoration MSE: 23.75
+
+Restoration MSE: 23.19
+
+Restoration MSE: 22.86
+
+Restoration MSE: 22.70
+
+Restoration MSE: 22.32
+
+Restoration MSE: 22.13
+
+Restoration MSE: 22.07
+
+Restoration MSE: 21.76
+
+Restoration MSE: 20.90
+
+Restoration MSE: 20.43
+
+Restoration MSE: 20.12
+
+Restoration MSE: 19.73
+
+Restoration MSE: 19.44
+
+Restoration MSE: 19.14
+
+Restoration MSE: 19.12
+
+Restoration MSE: 18.60
+
+Restoration MSE: 17.80
+
+Restoration MSE: 17.43
+
+Restoration MSE: 17.10
+
+Restoration MSE: 16.89
+
+Restoration MSE: 16.59
+
+Restoration MSE: 16.33
+
+Restoration MSE: 16.40
+
+Restoration MSE: 15.85
+
+Restoration MSE: 15.20
+
+Restoration MSE: 14.86
+
+Restoration MSE: 14.49
+
+Restoration MSE: 14.23
+
+Restoration MSE: 13.80
+
+Restoration MSE: 13.50
+
+Restoration MSE: 13.49
+
+Restoration MSE: 13.08
+
+Restoration MSE: 12.41
+
+Restoration MSE: 12.03
+
+Restoration MSE: 11.73
+
+Restoration MSE: 11.48
+
+Restoration MSE: 11.17
+
+Restoration MSE: 10.75
+
+Restoration MSE: 10.69
+
+Restoration MSE: 10.25
+
+Restoration MSE: 9.48
+
+Restoration MSE: 9.38
+
+Restoration MSE: 9.04
+
+Restoration MSE: 8.66
+
+Restoration MSE: 8.33
+
+Restoration MSE: 7.67
+
+Restoration MSE: 7.83
+
+Restoration MSE: 7.47
+
+Restoration MSE: 6.81
+
+Restoration MSE: 6.49
+
+Restoration MSE: 6.10
+
+Restoration MSE: 5.86
+
+Restoration MSE: 5.46
+
+Restoration MSE: 5.11
+
+Restoration MSE: 5.07
+
+Restoration MSE: 4.63
+
+Restoration MSE: 3.98
+
+Restoration MSE: 3.61
+
+Restoration MSE: 3.35
+
+Restoration MSE: 2.97
+
+Restoration MSE: 2.63
+
+Restoration MSE: 2.24
+
+Restoration MSE: 2.16
+
+Restoration MSE: 2.04
+
+Restoration MSE: 1.13
+
+Restoration MSE: 0.91
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.33
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.26
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.29
+
+Restoration MSE: 0.34
+
+Restoration MSE: 0.27
+
+Restoration MSE: 0.33
+
+Restoration MSE: 0.30
+
+Restoration MSE: 0.31
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.34
+
+Restoration MSE: 0.25
+
+Restoration MSE: 0.36
+
+Restoration MSE: 0.35
+
+Restoration MSE: 0.29
+
+Restoration MSE: 0.28
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.25
+
+Restoration MSE: 0.32
+
+Restoration MSE: 0.36
+
+Restoration MSE: 0.29
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.27
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.29
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.26
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.35
+
+Restoration MSE: 0.29
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.34
+
+Restoration MSE: 0.31
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.35
+
+Restoration MSE: 0.30
+
+Restoration MSE: 0.33
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.27
+
+Restoration MSE: 0.34
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.29
+
+Restoration MSE: 0.39
+
+Restoration MSE: 0.30
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.29
+
+Restoration MSE: 0.38
+
+Restoration MSE: 0.30
+
+Restoration MSE: 0.36
+
+Restoration MSE: 0.36
+
+Restoration MSE: 0.29
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.32
+
+Restoration MSE: 0.30
+
+Restoration MSE: 0.36
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.32
+
+Restoration MSE: 0.33
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.33
+
+Restoration MSE: 0.32
+
+Restoration MSE: 0.43
+
+Restoration MSE: 0.31
+
+Restoration MSE: 0.39
+
+Restoration MSE: 0.35
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.26
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.31
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.36
+
+Restoration MSE: 0.24
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.31
+
+Restoration MSE: 0.33
+
+Restoration MSE: 0.35
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.29
+
+Restoration MSE: 0.34
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.35
+
+Restoration MSE: 0.34
+
+Restoration MSE: 0.42
+
+Restoration MSE: 0.30
+
+Restoration MSE: 0.40
+
+Restoration MSE: 0.34
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.30
+
+Restoration MSE: 0.39
+
+Restoration MSE: 0.34
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.40
+
+Restoration MSE: 0.30
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.35
+
+Restoration MSE: 0.36
+
+Restoration MSE: 0.35
+
+Restoration MSE: 0.39
+
+Restoration MSE: 0.31
+
+Restoration MSE: 0.35
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.42
+
+Restoration MSE: 0.39
+
+Restoration MSE: 0.48
+
+Restoration MSE: 0.41
+
+Restoration MSE: 0.46
+
+Restoration MSE: 0.41
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.88
+
+Restoration MSE: 0.32
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.40
+
+Restoration MSE: 0.38
+
+Restoration MSE: 0.48
+
+Restoration MSE: 0.30
+
+Restoration MSE: 0.81
+
+Restoration MSE: 0.81
+
+Restoration MSE: 0.39
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.36
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.40
+
+Restoration MSE: 0.42
+
+Restoration MSE: 0.83
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.42
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.48
+
+Restoration MSE: 0.43
+
+Restoration MSE: 0.48
+
+Restoration MSE: 0.45
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.88
+
+Restoration MSE: 0.44
+
+Restoration MSE: 0.45
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.43
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.35
+
+Restoration MSE: 0.84
+
+Restoration MSE: 0.91
+
+Restoration MSE: 0.40
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.45
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.93
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.46
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.95
+
+Restoration MSE: 0.45
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.41
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.39
+
+Restoration MSE: 0.91
+
+Restoration MSE: 1.03
+
+Restoration MSE: 0.40
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.44
+
+Restoration MSE: 0.97
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.83
+
+Restoration MSE: 0.99
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.43
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.44
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.44
+
+Restoration MSE: 0.94
+
+Restoration MSE: 1.01
+
+Restoration MSE: 0.38
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.50
+
+Restoration MSE: 1.05
+
+Restoration MSE: 0.87
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.87
+
+Restoration MSE: 0.98
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.93
+
+Restoration MSE: 1.09
+
+Restoration MSE: 0.45
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.43
+
+Restoration MSE: 1.08
+
+Restoration MSE: 0.87
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.52
+
+Restoration MSE: 1.01
+
+Restoration MSE: 0.93
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.45
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.48
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.43
+
+Restoration MSE: 0.82
+
+Restoration MSE: 1.12
+
+Restoration MSE: 0.45
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.42
+
+Restoration MSE: 1.08
+
+Restoration MSE: 0.87
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.96
+
+Restoration MSE: 0.95
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.83
+
+Restoration MSE: 1.03
+
+Restoration MSE: 0.48
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.45
+
+Restoration MSE: 1.05
+
+Restoration MSE: 1.04
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.45
+
+Restoration MSE: 1.08
+
+Restoration MSE: 0.95
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.84
+
+Restoration MSE: 1.01
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.46
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.46
+
+Restoration MSE: 0.99
+
+Restoration MSE: 1.01
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.46
+
+Restoration MSE: 1.02
+
+Restoration MSE: 0.86
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.94
+
+Restoration MSE: 1.18
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.96
+
+Restoration MSE: 1.15
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.45
+
+Restoration MSE: 1.06
+
+Restoration MSE: 0.87
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.97
+
+Restoration MSE: 1.18
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.57
+
+Restoration MSE: 1.09
+
+Restoration MSE: 1.11
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.48
+
+Restoration MSE: 1.14
+
+Restoration MSE: 0.95
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.93
+
+Restoration MSE: 1.07
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.92
+
+Restoration MSE: 1.05
+
+Restoration MSE: 0.46
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.44
+
+Restoration MSE: 1.09
+
+Restoration MSE: 1.04
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.55
+
+Restoration MSE: 1.10
+
+Restoration MSE: 1.10
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.88
+
+Restoration MSE: 1.21
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.49
+
+Restoration MSE: 1.12
+
+Restoration MSE: 0.98
+
+Restoration MSE: 0.48
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.46
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.52
+
+Restoration MSE: 1.06
+
+Restoration MSE: 0.91
+
+Restoration MSE: 0.48
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.69
+
+Restoration MSE: 1.02
+
+Restoration MSE: 0.43
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.46
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.34
+
+Restoration MSE: 0.99
+
+Restoration MSE: 0.96
+
+Restoration MSE: 0.37
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.41
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.46
+
+Restoration MSE: 0.40
+
+Restoration MSE: 1.02
+
+Restoration MSE: 0.87
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.77
+
+Restoration MSE: 1.08
+
+Restoration MSE: 0.45
+
+Restoration MSE: 0.46
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.46
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.39
+
+Restoration MSE: 1.00
+
+Restoration MSE: 1.09
+
+Restoration MSE: 0.44
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.45
+
+Restoration MSE: 1.05
+
+Restoration MSE: 0.86
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.88
+
+Restoration MSE: 0.98
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.97
+
+Restoration MSE: 1.05
+
+Restoration MSE: 0.42
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.45
+
+Restoration MSE: 1.10
+
+Restoration MSE: 0.91
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.54
+
+Restoration MSE: 1.01
+
+Restoration MSE: 1.13
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.55
+
+Restoration MSE: 1.00
+
+Restoration MSE: 1.12
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.46
+
+Restoration MSE: 1.17
+
+Restoration MSE: 1.07
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.53
+
+Restoration MSE: 1.03
+
+Restoration MSE: 1.05
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.93
+
+Restoration MSE: 1.22
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.42
+
+Restoration MSE: 1.02
+
+Restoration MSE: 1.02
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.51
+
+Restoration MSE: 1.07
+
+Restoration MSE: 0.96
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.48
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.88
+
+Restoration MSE: 1.16
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.53
+
+Restoration MSE: 1.16
+
+Restoration MSE: 1.14
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.52
+
+Restoration MSE: 1.18
+
+Restoration MSE: 1.07
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.61
+
+Restoration MSE: 1.00
+
+Restoration MSE: 1.19
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.53
+
+Restoration MSE: 1.25
+
+Restoration MSE: 1.31
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.52
+
+Restoration MSE: 1.25
+
+Restoration MSE: 1.07
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.70
+
+Restoration MSE: 1.12
+
+Restoration MSE: 1.44
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.84
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.61
+
+Restoration MSE: 1.24
+
+Restoration MSE: 1.26
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.82
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.56
+
+Restoration MSE: 1.51
+
+Restoration MSE: 1.14
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.68
+
+Restoration MSE: 1.30
+
+Restoration MSE: 1.38
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.89
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.86
+
+Restoration MSE: 0.70
+
+Restoration MSE: 1.30
+
+Restoration MSE: 1.44
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.83
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.86
+
+Restoration MSE: 0.58
+
+Restoration MSE: 1.56
+
+Restoration MSE: 1.25
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.81
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.73
+
+Restoration MSE: 1.30
+
+Restoration MSE: 1.29
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.82
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.69
+
+Restoration MSE: 1.24
+
+Restoration MSE: 1.44
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.81
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.80
+
+Restoration MSE: 0.55
+
+Restoration MSE: 1.44
+
+Restoration MSE: 1.32
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.80
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.71
+
+Restoration MSE: 1.43
+
+Restoration MSE: 1.24
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.81
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.72
+
+Restoration MSE: 1.16
+
+Restoration MSE: 1.55
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.82
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.82
+
+Restoration MSE: 0.58
+
+Restoration MSE: 1.44
+
+Restoration MSE: 1.51
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.86
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.75
+
+Restoration MSE: 1.56
+
+Restoration MSE: 1.21
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.82
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.74
+
+Restoration MSE: 1.05
+
+Restoration MSE: 1.59
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.85
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.84
+
+Restoration MSE: 0.58
+
+Restoration MSE: 1.45
+
+Restoration MSE: 1.46
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.82
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.65
+
+Restoration MSE: 1.43
+
+Restoration MSE: 1.20
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.72
+
+Restoration MSE: 1.19
+
+Restoration MSE: 1.35
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.90
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.64
+
+Restoration MSE: 1.46
+
+Restoration MSE: 1.53
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.80
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.83
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.67
+
+Restoration MSE: 1.50
+
+Restoration MSE: 1.21
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.77
+
+Restoration MSE: 1.27
+
+Restoration MSE: 1.48
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.86
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.64
+
+Restoration MSE: 1.38
+
+Restoration MSE: 1.47
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.59
+
+Restoration MSE: 1.42
+
+Restoration MSE: 1.18
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.80
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.66
+
+Restoration MSE: 1.20
+
+Restoration MSE: 1.35
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.82
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.66
+
+Restoration MSE: 1.23
+
+Restoration MSE: 1.46
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.80
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.56
+
+Restoration MSE: 1.53
+
+Restoration MSE: 1.33
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.72
+
+Restoration MSE: 1.41
+
+Restoration MSE: 1.22
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.86
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.65
+
+Restoration MSE: 1.13
+
+Restoration MSE: 1.57
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.57
+
+Restoration MSE: 1.46
+
+Restoration MSE: 1.37
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.81
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.63
+
+Restoration MSE: 1.36
+
+Restoration MSE: 1.18
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.63
+
+Restoration MSE: 1.02
+
+Restoration MSE: 1.51
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.56
+
+Restoration MSE: 1.35
+
+Restoration MSE: 1.43
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.81
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.60
+
+Restoration MSE: 1.37
+
+Restoration MSE: 1.10
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.62
+
+Restoration MSE: 1.02
+
+Restoration MSE: 1.31
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.58
+
+Restoration MSE: 1.24
+
+Restoration MSE: 1.32
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.54
+
+Restoration MSE: 1.35
+
+Restoration MSE: 1.05
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.65
+
+Restoration MSE: 1.09
+
+Restoration MSE: 1.27
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.54
+
+Restoration MSE: 1.12
+
+Restoration MSE: 1.30
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.55
+
+Restoration MSE: 1.46
+
+Restoration MSE: 1.11
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.61
+
+Restoration MSE: 1.17
+
+Restoration MSE: 1.13
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.61
+
+Restoration MSE: 1.02
+
+Restoration MSE: 1.37
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.45
+
+Restoration MSE: 1.24
+
+Restoration MSE: 1.14
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.63
+
+Restoration MSE: 1.24
+
+Restoration MSE: 1.20
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.63
+
+Restoration MSE: 1.10
+
+Restoration MSE: 1.34
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.48
+
+Restoration MSE: 1.36
+
+Restoration MSE: 1.35
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.67
+
+Restoration MSE: 1.38
+
+Restoration MSE: 1.20
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.65
+
+Restoration MSE: 1.08
+
+Restoration MSE: 1.50
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.62
+
+Restoration MSE: 1.34
+
+Restoration MSE: 1.41
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.82
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.61
+
+Restoration MSE: 1.48
+
+Restoration MSE: 1.12
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.71
+
+Restoration MSE: 1.06
+
+Restoration MSE: 1.47
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.57
+
+Restoration MSE: 1.30
+
+Restoration MSE: 1.52
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.57
+
+Restoration MSE: 1.34
+
+Restoration MSE: 1.03
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.65
+
+Restoration MSE: 1.19
+
+Restoration MSE: 1.44
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.81
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.80
+
+Restoration MSE: 0.61
+
+Restoration MSE: 1.32
+
+Restoration MSE: 1.61
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.55
+
+Restoration MSE: 1.39
+
+Restoration MSE: 1.17
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.85
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.70
+
+Restoration MSE: 1.22
+
+Restoration MSE: 1.42
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.59
+
+Restoration MSE: 1.27
+
+Restoration MSE: 1.49
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.53
+
+Restoration MSE: 1.47
+
+Restoration MSE: 1.23
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.75
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.65
+
+Restoration MSE: 1.29
+
+Restoration MSE: 1.38
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.82
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.61
+
+Restoration MSE: 1.11
+
+Restoration MSE: 1.31
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.51
+
+Restoration MSE: 1.31
+
+Restoration MSE: 1.31
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.64
+
+Restoration MSE: 1.35
+
+Restoration MSE: 1.34
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.66
+
+Restoration MSE: 1.14
+
+Restoration MSE: 1.59
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.83
+
+Restoration MSE: 0.61
+
+Restoration MSE: 1.38
+
+Restoration MSE: 1.31
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.67
+
+Restoration MSE: 1.45
+
+Restoration MSE: 1.30
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.76
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.72
+
+Restoration MSE: 1.19
+
+Restoration MSE: 1.42
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.80
+
+Restoration MSE: 0.59
+
+Restoration MSE: 1.46
+
+Restoration MSE: 1.45
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.62
+
+Restoration MSE: 1.45
+
+Restoration MSE: 1.20
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.79
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.73
+
+Restoration MSE: 1.16
+
+Restoration MSE: 1.46
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.64
+
+Restoration MSE: 1.28
+
+Restoration MSE: 1.42
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.58
+
+Restoration MSE: 1.52
+
+Restoration MSE: 1.26
+
+Restoration MSE: 0.73
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.78
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.68
+
+Restoration MSE: 1.22
+
+Restoration MSE: 1.45
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.84
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.68
+
+Restoration MSE: 1.26
+
+Restoration MSE: 1.46
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.59
+
+Restoration MSE: 1.37
+
+Restoration MSE: 1.15
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.63
+
+Restoration MSE: 1.17
+
+Restoration MSE: 1.07
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.56
+
+Restoration MSE: 1.04
+
+Restoration MSE: 1.36
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.69
+
+Restoration MSE: 0.45
+
+Restoration MSE: 1.23
+
+Restoration MSE: 1.05
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.51
+
+Restoration MSE: 1.16
+
+Restoration MSE: 1.08
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.48
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.92
+
+Restoration MSE: 1.23
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.44
+
+Restoration MSE: 1.19
+
+Restoration MSE: 1.10
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.55
+
+Restoration MSE: 1.14
+
+Restoration MSE: 1.02
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.92
+
+Restoration MSE: 1.29
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.48
+
+Restoration MSE: 1.25
+
+Restoration MSE: 1.32
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.51
+
+Restoration MSE: 1.25
+
+Restoration MSE: 1.06
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.66
+
+Restoration MSE: 1.05
+
+Restoration MSE: 1.35
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.55
+
+Restoration MSE: 1.26
+
+Restoration MSE: 1.37
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.74
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.55
+
+Restoration MSE: 1.29
+
+Restoration MSE: 1.05
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.63
+
+Restoration MSE: 1.10
+
+Restoration MSE: 1.28
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.54
+
+Restoration MSE: 1.13
+
+Restoration MSE: 1.29
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.52
+
+Restoration MSE: 1.27
+
+Restoration MSE: 1.06
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.56
+
+Restoration MSE: 1.10
+
+Restoration MSE: 1.20
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.51
+
+Restoration MSE: 1.09
+
+Restoration MSE: 1.26
+
+Restoration MSE: 0.47
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.45
+
+Restoration MSE: 1.25
+
+Restoration MSE: 1.06
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.53
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.55
+
+Restoration MSE: 1.11
+
+Restoration MSE: 1.12
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.64
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.96
+
+Restoration MSE: 1.29
+
+Restoration MSE: 0.49
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.55
+
+Restoration MSE: 0.66
+
+Restoration MSE: 0.47
+
+Restoration MSE: 1.26
+
+Restoration MSE: 1.16
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.56
+
+Restoration MSE: 0.57
+
+Restoration MSE: 1.16
+
+Restoration MSE: 1.15
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.67
+
+Restoration MSE: 0.62
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.94
+
+Restoration MSE: 1.25
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.48
+
+Restoration MSE: 1.21
+
+Restoration MSE: 1.26
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.72
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.54
+
+Restoration MSE: 1.25
+
+Restoration MSE: 0.97
+
+Restoration MSE: 0.63
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.95
+
+Restoration MSE: 1.28
+
+Restoration MSE: 0.59
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.60
+
+Restoration MSE: 0.77
+
+Restoration MSE: 0.54
+
+Restoration MSE: 1.23
+
+Restoration MSE: 1.24
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.71
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.49
+
+Restoration MSE: 1.18
+
+Restoration MSE: 0.93
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.54
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.70
+
+Restoration MSE: 0.50
+
+Restoration MSE: 0.63
+
+Restoration MSE: 1.05
+
+Restoration MSE: 1.24
+
+Restoration MSE: 0.57
+
+Restoration MSE: 0.58
+
+Restoration MSE: 0.68
+
+Restoration MSE: 0.52
+
+Restoration MSE: 0.65
+
+Restoration MSE: 0.54
+
+Restoration MSE: 1.09
+
+Restoration MSE: 1.19
+
+Restoration MSE: 0.43
+
+Restoration MSE: 0.61
+
+Restoration MSE: 0.51
+
+Restoration MSE: 0.73
+
+Restoration MSE: 1.05
+
+Restoration MSE: 1.25
+
+Restoration MSE: 2.39
+
+Restoration MSE: 2.50
+
+Restoration MSE: 2.45
+
+Restoration MSE: 2.69
+
+Restoration MSE: 3.02
+
+Restoration MSE: 3.42
+
+Restoration MSE: 3.65
+
+Restoration MSE: 4.23
+
+Restoration MSE: 5.04
+
+Restoration MSE: 5.52
+
+Restoration MSE: 5.27
+
+Restoration MSE: 5.40
+
+Restoration MSE: 5.93
+
+Restoration MSE: 6.12
+
+Restoration MSE: 6.57
+
+Restoration MSE: 7.00
+
+Restoration MSE: 7.82
+
+Restoration MSE: 8.32
+
+Restoration MSE: 8.05
+
+Restoration MSE: 8.52
+
+Restoration MSE: 8.81
+
+Restoration MSE: 8.90
+
+Restoration MSE: 9.29
+
+Restoration MSE: 9.40
+
+Restoration MSE: 10.47
+
+Restoration MSE: 10.68
+
+Restoration MSE: 10.54
+
+Restoration MSE: 10.96
+
+Restoration MSE: 11.32
+
+Restoration MSE: 11.90
+
+Restoration MSE: 12.10
+
+Restoration MSE: 12.47
+
+Restoration MSE: 13.27
+
+Restoration MSE: 13.52
+
+Restoration MSE: 13.40
+
+Restoration MSE: 13.74
+
+Restoration MSE: 14.21
+
+Restoration MSE: 14.49
+
+Restoration MSE: 14.90
+
+Restoration MSE: 15.15
+
+Restoration MSE: 15.85
+
+Restoration MSE: 16.68
+
+Restoration MSE: 16.34
+
+Restoration MSE: 16.95
+
+Restoration MSE: 17.31
+
+Restoration MSE: 17.65
+
+Restoration MSE: 18.03
+
+Restoration MSE: 18.03
+
+Restoration MSE: 19.04
+
+Restoration MSE: 19.36
+
+Restoration MSE: 19.12
+
+Restoration MSE: 19.38
+
+Restoration MSE: 19.68
+
+Restoration MSE: 20.10
+
+Restoration MSE: 20.37
+
+Restoration MSE: 20.90
+
+Restoration MSE: 21.78
+
+Restoration MSE: 22.08
+
+Restoration MSE: 22.06
+
+Restoration MSE: 22.19
+
+Restoration MSE: 22.71
+
+Restoration MSE: 23.16
+
+Restoration MSE: 23.49
+
+Restoration MSE: 24.00
+
+Restoration MSE: 24.73
+
+Restoration MSE: 24.51
+
+Restoration MSE: 24.17
+
+Restoration MSE: 24.63
+
+Restoration MSE: 25.01
+
+Restoration MSE: 25.76
+
+Restoration MSE: 26.26
+
+Restoration MSE: 26.45
+
+Restoration MSE: 27.40
+
+Restoration MSE: 27.93
+
+Restoration MSE: 27.72
+
+Restoration MSE: 28.37
+
+Restoration MSE: 28.63
+
+Restoration MSE: 29.09
+
+Restoration MSE: 29.38
+
+Restoration MSE: 29.52
+
+Restoration MSE: 30.49
+
+Restoration MSE: 30.12
+
+Restoration MSE: 30.10
+
+Restoration MSE: 30.60
+
+Restoration MSE: 31.03
+
+Restoration MSE: 31.51
+
+Restoration MSE: 31.85
+
+Restoration MSE: 32.05
+
+Restoration MSE: 32.67
+
+Restoration MSE: 33.09
+
+Restoration MSE: 32.81
+
+Restoration MSE: 33.69
+
+Restoration MSE: 34.05
+
+Restoration MSE: 34.31
+
+Restoration MSE: 34.78
+
+Restoration MSE: 34.47
+
+Restoration MSE: 35.46
+
+Restoration MSE: 36.15
+
+Restoration MSE: 35.75
+
+Restoration MSE: 36.37
+
+Restoration MSE: 36.66
+
+Restoration MSE: 37.26
+
+Restoration MSE: 37.54
+
+Restoration MSE: 37.71
+
+Restoration MSE: 38.49
+
+Restoration MSE: 39.05
+
+Restoration MSE: 38.95
+
+Restoration MSE: 39.29
+
+Restoration MSE: 39.66
+
+Restoration MSE: 39.85
+
+Restoration MSE: 40.17
+
+Restoration MSE: 40.50
+
+Restoration MSE: 41.30
+
+Restoration MSE: 41.77
+
+Restoration MSE: 41.54
+
+Restoration MSE: 41.86
+
+Restoration MSE: 42.27
+
+Restoration MSE: 42.54
+
+Restoration MSE: 43.01
+
+Restoration MSE: 43.27
+
+Restoration MSE: 44.17
+
+Restoration MSE: 44.27
+
+Restoration MSE: 43.96
+
+Restoration MSE: 44.91
+
+Restoration MSE: 45.35
+
+Restoration MSE: 45.57
+
+Restoration MSE: 45.94
+
+Restoration MSE: 45.75
+
+Restoration MSE: 46.82
+
+Restoration MSE: 47.32
+
+Restoration MSE: 47.29
+
+Restoration MSE: 47.31
+
+Restoration MSE: 47.67
+
+Restoration MSE: 47.55
+
+Restoration MSE: 47.84
+
+Restoration MSE: 48.56
+
+Restoration MSE: 49.29
+
+Restoration MSE: 49.46
+
+Restoration MSE: 49.21
+
+Restoration MSE: 49.42
+
+Restoration MSE: 49.83
+
+Restoration MSE: 50.25
+
+Restoration MSE: 50.67
+
+Restoration MSE: 51.04
+
+Restoration MSE: 51.82
+
+Restoration MSE: 53.09
+
+Restoration MSE: 52.68
+
+Restoration MSE: 53.13
+
+Restoration MSE: 53.41
+
+Restoration MSE: 53.97
+
+Restoration MSE: 54.39
+
+Restoration MSE: 54.63
+
+Restoration MSE: 55.64
+
+Restoration MSE: 55.18
+
+Restoration MSE: 55.13
+
+Restoration MSE: 55.47
+
+Restoration MSE: 55.78
+
+Restoration MSE: 56.52
+
+Restoration MSE: 56.76
+
+Restoration MSE: 57.12
+
+Restoration MSE: 57.89
+
+Restoration MSE: 58.25
+
+Restoration MSE: 58.13
+
+Restoration MSE: 58.27
+
+Restoration MSE: 58.77
+
+Restoration MSE: 59.26
+
+Restoration MSE: 59.63
+
+Restoration MSE: 60.07
+
+Restoration MSE: 60.86
+
+Restoration MSE: 61.37
+
+Restoration MSE: 61.06
+
+Restoration MSE: 61.90
+
+Restoration MSE: 62.17
+
+Restoration MSE: 62.34
+
+Restoration MSE: 62.79
+
+Restoration MSE: 62.66
+
+Restoration MSE: 63.67
+
+Restoration MSE: 63.97
+
+Restoration MSE: 63.89
+
+Restoration MSE: 64.34
+
+Restoration MSE: 64.63
+
+Restoration MSE: 65.22
+
+Restoration MSE: 65.43
+
+Restoration MSE: 65.75
+
+Restoration MSE: 66.58
+
+Restoration MSE: 67.38
+
+Restoration MSE: 67.36
+
+Restoration MSE: 67.31
+
+Restoration MSE: 67.78
+
+Restoration MSE: 67.94
+
+Restoration MSE: 68.32
+
+Restoration MSE: 68.91
+
+Restoration MSE: 69.58
+
+Restoration MSE: 69.07
+
+Restoration MSE: 68.77
+
+Restoration MSE: 68.92
+
+Restoration MSE: 69.30
+
+Restoration MSE: 69.96
+
+Restoration MSE: 70.42
+
+Restoration MSE: 70.93
+
+Restoration MSE: 71.84
+
+Restoration MSE: 72.96
+
+Restoration MSE: 72.81
+
+Restoration MSE: 73.28
+
+Restoration MSE: 73.54
+
+Restoration MSE: 73.65
+
+Restoration MSE: 73.92
+
+Restoration MSE: 74.23
+
+Restoration MSE: 75.11
+
+Restoration MSE: 74.03
+
+Restoration MSE: 74.08
+
+Restoration MSE: 74.66
+
+Restoration MSE: 75.38
+
+Restoration MSE: 75.90
+
+Restoration MSE: 76.18
+
+Restoration MSE: 76.20
+
+Restoration MSE: 76.79
+
+Restoration MSE: 77.44
+
+Restoration MSE: 77.15
+
+Restoration MSE: 78.04
+
+Restoration MSE: 78.43
+
+Restoration MSE: 78.64
+
+Restoration MSE: 79.08
+
+Restoration MSE: 78.82
+
+Restoration MSE: 79.70
+
+Restoration MSE: 80.78
+
+Restoration MSE: 80.51
+
+Restoration MSE: 81.28
+
+Restoration MSE: 81.52
+
+Restoration MSE: 81.82
+
+Restoration MSE: 82.15
+
+Restoration MSE: 82.11
+
+Restoration MSE: 82.94
+
+Restoration MSE: 83.26
+
+Restoration MSE: 83.21
+
+Restoration MSE: 83.35
+
+Restoration MSE: 83.61
+
+Restoration MSE: 83.76
+
+Restoration MSE: 84.22
+
+Restoration MSE: 84.67
+
+Restoration MSE: 85.36
+
+Restoration MSE: 85.06
+
+Restoration MSE: 85.11
+
+Restoration MSE: 85.78
+
+Restoration MSE: 86.16
+
+Restoration MSE: 86.40
+
+Restoration MSE: 87.03
+
+Restoration MSE: 86.90
+
+Restoration MSE: 87.68
+
+Restoration MSE: 88.71
+
+Restoration MSE: 88.54
+
+Restoration MSE: 89.06
+
+Restoration MSE: 89.51
+
+Restoration MSE: 89.73
+
+Restoration MSE: 90.10
+
+Restoration MSE: 90.20
+
+Restoration MSE: 91.03
+
+Restoration MSE: 91.04
+
+Restoration MSE: 91.10
+
+Restoration MSE: 91.14
+
+Restoration MSE: 91.46
+
+Restoration MSE: 91.28
+
+Restoration MSE: 91.70
+
+Restoration MSE: 92.36
+
+Restoration MSE: 92.98
+
+Restoration MSE: 93.82
+
+Restoration MSE: 93.76
+
+Restoration MSE: 94.49
+
+Restoration MSE: 94.90
+
+Restoration MSE: 95.48
+
+Restoration MSE: 95.87
+
+Restoration MSE: 95.78
+
+Restoration MSE: 96.46
+
+Restoration MSE: 97.33
+
+Restoration MSE: 97.23
+
+Restoration MSE: 97.24
+
+Restoration MSE: 97.57
+
+Restoration MSE: 98.27
+
+Restoration MSE: 98.70
+
+Restoration MSE: 99.40
+
+Restoration MSE: 100.19
+
+Restoration MSE: 99.10
+
+Restoration MSE: 99.09
+
+Restoration MSE: 99.77
+
+Restoration MSE: 100.11
+
+Restoration MSE: 100.31
+
+Restoration MSE: 100.56
+
+Restoration MSE: 100.60
+
+Restoration MSE: 101.26
+
+Restoration MSE: 101.70
+
+Restoration MSE: 101.68
+
+Restoration MSE: 102.19
+
+Restoration MSE: 102.58
+
+Restoration MSE: 103.14
+
+Restoration MSE: 103.55
+
+Restoration MSE: 103.67
+
+Restoration MSE: 104.29
+
+Restoration MSE: 105.74
+
+Restoration MSE: 105.56
+
+Restoration MSE: 105.94
+
+Restoration MSE: 106.18
+
+Restoration MSE: 106.35
+
+Restoration MSE: 106.75
+
+Restoration MSE: 106.98
+
+Restoration MSE: 107.79
+
+Restoration MSE: 106.95
+
+Restoration MSE: 106.99
+
+Restoration MSE: 107.24
+
+Restoration MSE: 107.53
+
+Restoration MSE: 109.22
+
+Restoration MSE: 109.49
+
+Restoration MSE: 109.99
+
+Restoration MSE: 110.71
+
+Restoration MSE: 110.90
+
+Restoration MSE: 110.91
+
+Restoration MSE: 110.41
+
+Restoration MSE: 110.81
+
+Restoration MSE: 111.42
+
+Restoration MSE: 111.77
+
+Restoration MSE: 112.86
+
+Restoration MSE: 113.46
+
+Restoration MSE: 112.24
+
+Restoration MSE: 112.08
+
+Restoration MSE: 112.61
+
+Restoration MSE: 112.79
+
+Restoration MSE: 113.79
+
+Restoration MSE: 114.39
+
+Restoration MSE: 114.68
+
+Restoration MSE: 115.47
+
+Restoration MSE: 116.27
+
+Restoration MSE: 116.23
+
+Restoration MSE: 116.81
+
+Restoration MSE: 117.06
+
+Restoration MSE: 116.98
+
+Restoration MSE: 117.27
+
+Restoration MSE: 117.46
+
+Restoration MSE: 118.17
+
+Restoration MSE: 118.25
+
+Restoration MSE: 118.28
+
+Restoration MSE: 118.74
+
+Restoration MSE: 119.32
+
+Restoration MSE: 119.45
+
+Restoration MSE: 119.79
+
+Restoration MSE: 119.96
+
+Restoration MSE: 120.54
+
+Restoration MSE: 121.53
+
+Restoration MSE: 121.42
+
+Restoration MSE: 121.96
+
+Restoration MSE: 122.29
+
+Restoration MSE: 122.43
+
+Restoration MSE: 122.98
+
+Restoration MSE: 123.06
+
+Restoration MSE: 123.83
+
+Restoration MSE: 124.26
+
+Restoration MSE: 124.33
+
+Restoration MSE: 125.23
+
+Restoration MSE: 125.48
+
+Restoration MSE: 125.73
+
+Restoration MSE: 126.19
+
+Restoration MSE: 126.01
+
+Restoration MSE: 126.89
+
+Restoration MSE: 127.09
+
+Restoration MSE: 126.99
+
+Restoration MSE: 127.17
+
+Restoration MSE: 127.35
+
+Restoration MSE: 127.48
+
+Restoration MSE: 127.93
+
+Restoration MSE: 128.46
+
+Restoration MSE: 129.13
+
+Restoration MSE: 129.05
+
+Restoration MSE: 128.86
+
+Restoration MSE: 129.14
+
+Restoration MSE: 129.51
+
+Restoration MSE: 129.80
+
+Restoration MSE: 130.23
+
+Restoration MSE: 130.66
+
+Restoration MSE: 131.37
+
+Restoration MSE: 131.78
+
+Restoration MSE: 131.69
+
+Restoration MSE: 132.76
+
+Restoration MSE: 133.02
+
+Restoration MSE: 133.41
+
+Restoration MSE: 133.56
+
+Restoration MSE: 133.21
+
+Restoration MSE: 134.34
+
+Restoration MSE: 134.57
+
+Restoration MSE: 134.71
+
+Restoration MSE: 134.56
+
+Restoration MSE: 134.89
+
+Restoration MSE: 135.65
+
+Restoration MSE: 135.92
+
+Restoration MSE: 136.80
+
+Restoration MSE: 137.35
+
+Restoration MSE: 137.14
+
+Restoration MSE: 137.08
+
+Restoration MSE: 137.38
+
+Restoration MSE: 137.73
+
+Restoration MSE: 138.32
+
+Restoration MSE: 138.79
+
+Restoration MSE: 139.07
+
+Restoration MSE: 139.78
+
+Restoration MSE: 140.60
+
+Restoration MSE: 140.38
+
+Restoration MSE: 140.85
+
+Restoration MSE: 141.06
+
+Restoration MSE: 141.91
+
+Restoration MSE: 142.45
+
+Restoration MSE: 142.75
+
+Restoration MSE: 143.56
+
+Restoration MSE: 143.04
+
+Restoration MSE: 143.11
+
+Restoration MSE: 143.16
+
+Restoration MSE: 143.52
+
+Restoration MSE: 143.97
+
+Restoration MSE: 143.90
+
+Restoration MSE: 144.53
+
+Restoration MSE: 144.97
+
+Restoration MSE: 145.04
+
+Restoration MSE: 145.06
+
+Restoration MSE: 145.88
+
+Restoration MSE: 146.25
+
+Restoration MSE: 146.55
+
+Restoration MSE: 146.97
+
+Restoration MSE: 146.73
+
+Restoration MSE: 147.37
+
+Restoration MSE: 148.65
+
+Restoration MSE: 148.49
+
+Restoration MSE: 149.74
+
+Restoration MSE: 150.07
+
+Restoration MSE: 150.09
+
+Restoration MSE: 150.46
+
+Restoration MSE: 149.86
+
+Restoration MSE: 150.68
+
+Restoration MSE: 150.74
+
+Restoration MSE: 150.75
+
+Restoration MSE: 150.80
+
+Restoration MSE: 151.05
+
+Restoration MSE: 152.24
+
+Restoration MSE: 152.80
+
+Restoration MSE: 153.54
+
+Restoration MSE: 154.34
+
+Restoration MSE: 154.60
+
+Restoration MSE: 154.63
+
+Restoration MSE: 154.08
+
+Restoration MSE: 154.53
+
+Restoration MSE: 154.98
+
+Restoration MSE: 155.31
+
+Restoration MSE: 156.45
+
+Restoration MSE: 157.05
+
+Restoration MSE: 155.93
+
+Restoration MSE: 155.80
+
+Restoration MSE: 156.24
+
+Restoration MSE: 156.54
+
+Restoration MSE: 157.48
+
+Restoration MSE: 158.25
+
+Restoration MSE: 158.48
+
+Restoration MSE: 159.28
+
+Restoration MSE: 159.93
+
+Restoration MSE: 159.80
+
+Restoration MSE: 160.19
+
+Restoration MSE: 160.40
+
+Restoration MSE: 160.16
+
+Restoration MSE: 160.40
+
+Restoration MSE: 160.83
+
+Restoration MSE: 161.53
+
+Restoration MSE: 161.72
+
+Restoration MSE: 161.63
+
+Restoration MSE: 162.43
+
+Restoration MSE: 162.95
+
+Restoration MSE: 163.60
+
+Restoration MSE: 163.90
+
+Restoration MSE: 163.61
+
+Restoration MSE: 164.23
+
+Restoration MSE: 164.76
+
+Restoration MSE: 164.56
+
+Restoration MSE: 164.94
+
+Restoration MSE: 165.30
+
+Restoration MSE: 165.82
+
+Restoration MSE: 166.25
+
+Restoration MSE: 166.48
+
+Restoration MSE: 167.31
+
+Restoration MSE: 167.95
+
+Restoration MSE: 167.81
+
+Restoration MSE: 168.08
+
+Restoration MSE: 168.37
+
+Restoration MSE: 168.83
+
+Restoration MSE: 169.14
+
+Restoration MSE: 169.65
+
+Restoration MSE: 170.39
+
+Restoration MSE: 170.06
+
+Restoration MSE: 169.99
+
+Restoration MSE: 169.97
+
+Restoration MSE: 170.29
+
+Restoration MSE: 170.65
+
+Restoration MSE: 171.03
+
+Restoration MSE: 171.75
+
+Restoration MSE: 172.48
+
+Restoration MSE: 172.62
+
+Restoration MSE: 172.42
+
+Restoration MSE: 172.83
+
+Restoration MSE: 173.30
+
+Restoration MSE: 173.56
+
+Restoration MSE: 174.19
+
+Restoration MSE: 174.55
+
+Restoration MSE: 175.15
+
+Restoration MSE: 175.13
+
+Restoration MSE: 175.04
+
+Restoration MSE: 175.91
+
+Restoration MSE: 176.39
+
+Restoration MSE: 177.01
+
+Restoration MSE: 177.15
+
+Restoration MSE: 177.00
+
+Restoration MSE: 177.82
+
+Restoration MSE: 177.84
+
+Restoration MSE: 177.98
+
+Restoration MSE: 178.21
+
+Restoration MSE: 178.40
+
+Restoration MSE: 178.47
+
+Restoration MSE: 178.76
+
+Restoration MSE: 179.22
+
+Restoration MSE: 179.57
+
+Restoration MSE: 179.98
+
+Restoration MSE: 179.96
+
+Restoration MSE: 180.51
+
+Restoration MSE: 180.97
+
+Restoration MSE: 181.33
+
+Restoration MSE: 181.75
+
+Restoration MSE: 181.79
+
+Restoration MSE: 182.42
+
+Restoration MSE: 184.14
+
+Restoration MSE: 184.00
+
+Restoration MSE: 183.62
+
+Restoration MSE: 183.92
+
+Restoration MSE: 184.11
+
+Restoration MSE: 184.73
+
+Restoration MSE: 185.76
+
+Restoration MSE: 186.59
+
+Restoration MSE: 185.60
+
+Restoration MSE: 185.67
+
+Restoration MSE: 186.49
+
+Restoration MSE: 186.91
+
+Restoration MSE: 187.58
+
+Restoration MSE: 187.62
+
+Restoration MSE: 187.49
+
+Restoration MSE: 188.07
+
+Restoration MSE: 187.80
+
+Restoration MSE: 187.77
+
+Restoration MSE: 187.69
+
+Restoration MSE: 188.22
+
+Restoration MSE: 188.66
+
+Restoration MSE: 189.08
+
+Restoration MSE: 189.78
+
+Restoration MSE: 190.38
+
+Restoration MSE: 191.85
+
+Restoration MSE: 191.66
+
+Restoration MSE: 192.50
+
+Restoration MSE: 192.77
+
+Restoration MSE: 192.77
+
+Restoration MSE: 193.13
+
+Restoration MSE: 192.98
+
+Restoration MSE: 193.70
+
+Restoration MSE: 192.88
+
+Restoration MSE: 192.94
+
+Restoration MSE: 193.15
+
+Restoration MSE: 193.50
+
+Restoration MSE: 194.52
+
+Restoration MSE: 194.75
+
+Restoration MSE: 195.30
+
+Restoration MSE: 195.89
+
+Restoration MSE: 197.65
+
+Restoration MSE: 197.72
+
+Restoration MSE: 197.48
+
+Restoration MSE: 197.86
+
+Restoration MSE: 198.12
+
+Restoration MSE: 198.48
+
+Restoration MSE: 199.19
+
+Restoration MSE: 199.83
+
+Restoration MSE: 198.24
+
+Restoration MSE: 198.18
+
+Restoration MSE: 198.81
+
+Restoration MSE: 199.14
+
+Restoration MSE: 200.59
+
+Restoration MSE: 201.30
+
+Restoration MSE: 201.43
+
+Restoration MSE: 202.16
+
+Restoration MSE: 202.50
+
+Restoration MSE: 202.46
+
+Restoration MSE: 202.78
+
+Restoration MSE: 203.07
+
+Restoration MSE: 203.29
+
+Restoration MSE: 203.28
+
+Restoration MSE: 203.57
+
+Restoration MSE: 204.22
+
+Restoration MSE: 204.14
+
+Restoration MSE: 204.24
+
+Restoration MSE: 205.18
+
+Restoration MSE: 205.54
+
+Restoration MSE: 205.65
+
+Restoration MSE: 205.86
+
+Restoration MSE: 205.52
+
+Restoration MSE: 206.01
+
+Restoration MSE: 206.92
+
+Restoration MSE: 207.05
+
+Restoration MSE: 207.72
+
+Restoration MSE: 208.06
+
+Restoration MSE: 208.47
+
+Restoration MSE: 208.83
+
+Restoration MSE: 208.78
+
+Restoration MSE: 209.46
+
+Restoration MSE: 210.26
+
+Restoration MSE: 210.25
+
+Restoration MSE: 210.46
+
+Restoration MSE: 210.72
+
+Restoration MSE: 211.73
+
+Restoration MSE: 212.04
+
+Restoration MSE: 212.55
+
+Restoration MSE: 213.16
+
+Restoration MSE: 212.43
+
+Restoration MSE: 212.28
+
+Restoration MSE: 212.58
+
+Restoration MSE: 212.85
+
+Restoration MSE: 213.31
+
+Restoration MSE: 213.93
+
+Restoration MSE: 214.27
+
+Restoration MSE: 214.75
+
+Restoration MSE: 213.70
+
+Restoration MSE: 213.82
+
+Restoration MSE: 214.89
+
+Restoration MSE: 215.25
+
+Restoration MSE: 215.39
+
+Restoration MSE: 215.82
+
+Restoration MSE: 215.43
+
+Restoration MSE: 216.09
+
+Restoration MSE: 216.22
+
+Restoration MSE: 216.26
+
+Restoration MSE: 217.36
+
+Restoration MSE: 217.73
+
+Restoration MSE: 217.94
+
+Restoration MSE: 218.22
+
+Restoration MSE: 217.76
+
+Restoration MSE: 218.34
+
+Restoration MSE: 219.95
+
+Restoration MSE: 220.15
+
+Restoration MSE: 219.67
+
+Restoration MSE: 220.02
+
+Restoration MSE: 219.38
+
+Restoration MSE: 219.68
+
+Restoration MSE: 221.08
+
+Restoration MSE: 221.66
+
+Restoration MSE: 220.70
+
+Restoration MSE: 220.72
+
+Restoration MSE: 221.71
+
+Restoration MSE: 222.17
+
+Restoration MSE: 223.09
+
+Restoration MSE: 223.49
+
+Restoration MSE: 223.13
+
+Restoration MSE: 223.76
+
+Restoration MSE: 226.20
+
+Restoration MSE: 226.27
+
+Restoration MSE: 226.17
+
+Restoration MSE: 226.44
+
+Restoration MSE: 226.70
+
+Restoration MSE: 226.92
+
+Restoration MSE: 227.63
+
+Restoration MSE: 228.15
+
+Restoration MSE: 227.66
+
+Restoration MSE: 227.87
+
+Restoration MSE: 228.33
+
+Restoration MSE: 228.64
+
+Restoration MSE: 229.75
+
+Restoration MSE: 229.88
+
+Restoration MSE: 230.08
+
+Restoration MSE: 230.50
+
+Restoration MSE: 229.21
+
+Restoration MSE: 229.35
+
+Restoration MSE: 229.84
+
+Restoration MSE: 230.14
+
+Restoration MSE: 231.00
+
+Restoration MSE: 231.51
+
+Restoration MSE: 231.62
+
+Restoration MSE: 232.16
+
+Restoration MSE: 233.62
+
+Restoration MSE: 233.72
+
+Restoration MSE: 234.25
+
+Restoration MSE: 234.53
+
+Restoration MSE: 234.54
+
+Restoration MSE: 234.83
+
+Restoration MSE: 234.98
+
+Restoration MSE: 235.51
+
+Restoration MSE: 234.16
+
+Restoration MSE: 234.25
+
+Restoration MSE: 234.60
+
+Restoration MSE: 234.94
+
+Restoration MSE: 236.07
+
+Restoration MSE: 236.51
+
+Restoration MSE: 236.88
+
+Restoration MSE: 237.22
+
+Restoration MSE: 239.64
+
+Restoration MSE: 239.74
+
+Restoration MSE: 239.05
+
+Restoration MSE: 239.36
+
+Restoration MSE: 239.54
+
+Restoration MSE: 239.74
+
+Restoration MSE: 240.99
+
+Restoration MSE: 241.47
+
+Restoration MSE: 240.26
+
+Restoration MSE: 240.33
+
+Restoration MSE: 240.89
+
+Restoration MSE: 241.21
+
+Restoration MSE: 241.98
+
+Restoration MSE: 242.33
+
+Restoration MSE: 242.46
+
+Restoration MSE: 242.98
+
+Restoration MSE: 243.99
+
+Restoration MSE: 244.17
+
+Restoration MSE: 244.80
+
+Restoration MSE: 245.06
+
+Restoration MSE: 244.77
+
+Restoration MSE: 245.05
+
+Restoration MSE: 245.03
+
+Restoration MSE: 245.45
+
+Restoration MSE: 245.21
+
+Restoration MSE: 245.25
+
+Restoration MSE: 246.31
+
+Restoration MSE: 246.82
+
+Restoration MSE: 247.59
+
+Restoration MSE: 247.89
+
+Restoration MSE: 247.37
+
+Restoration MSE: 247.79
+
+Restoration MSE: 248.25
+
+Restoration MSE: 248.35
+
+Restoration MSE: 249.49
+
+Restoration MSE: 249.82
+
+Restoration MSE: 249.78
+
+Restoration MSE: 250.11
+
+Restoration MSE: 249.60
+
+Restoration MSE: 250.25
+
+Restoration MSE: 251.41
+
+Restoration MSE: 251.74
+
+Restoration MSE: 252.23
+
+Restoration MSE: 252.52
+
+Restoration MSE: 253.18
+
+Restoration MSE: 253.49
+
+Restoration MSE: 253.63
+
+Restoration MSE: 254.41
+
+Restoration MSE: 254.40
+
+Restoration MSE: 254.41
+
+Restoration MSE: 254.21
+
+Restoration MSE: 254.54
+
+Restoration MSE: 254.10
+
+Restoration MSE: 254.47
+
+Restoration MSE: 255.27
+
+Restoration MSE: 255.91
+
+Restoration MSE: 255.46
+
+Restoration MSE: 255.56
+
+Restoration MSE: 256.27
+
+Restoration MSE: 256.64
+
+Restoration MSE: 257.70
+
+Restoration MSE: 258.26
+
+Restoration MSE: 258.27
+
+Restoration MSE: 258.78
+
+Restoration MSE: 258.20
+
+Restoration MSE: 258.36
+
+Restoration MSE: 259.52
+
+Restoration MSE: 259.87
+
+Restoration MSE: 260.84
+
+Restoration MSE: 261.10
+
+Restoration MSE: 260.55
+
+Restoration MSE: 261.04
+
+Restoration MSE: 261.50
+
+Restoration MSE: 261.67
+
+Restoration MSE: 261.26
+
+Restoration MSE: 261.62
+
+Restoration MSE: 261.47
+
+Restoration MSE: 261.84
+
+Restoration MSE: 263.24
+
+Restoration MSE: 263.53
+
+Restoration MSE: 262.44
+
+Restoration MSE: 262.73
+
+Restoration MSE: 263.58
+
+Restoration MSE: 264.07
+
+Restoration MSE: 264.47
+
+Restoration MSE: 264.82
+
+Restoration MSE: 264.66
+
+Restoration MSE: 265.29
+
+Restoration MSE: 267.39
+
+Restoration MSE: 267.55
+
+Restoration MSE: 267.09
+
+Restoration MSE: 267.39
+
+Restoration MSE: 268.03
+
+Restoration MSE: 268.52
+
+Restoration MSE: 269.59
+
+Restoration MSE: 270.07
+
+Restoration MSE: 268.90
+
+Restoration MSE: 269.25
+
+Restoration MSE: 269.96
+
+Restoration MSE: 270.35
+
+Restoration MSE: 271.44
+
+Restoration MSE: 271.77
+
+Restoration MSE: 271.77
+
+Restoration MSE: 272.11
+
+Restoration MSE: 270.52
+
+Restoration MSE: 270.60
+
+Restoration MSE: 271.23
+
+Restoration MSE: 271.57
+
+Restoration MSE: 272.88
+
+Restoration MSE: 273.22
+
+Restoration MSE: 273.20
+
+Restoration MSE: 273.49
+
+Restoration MSE: 274.22
+
+Restoration MSE: 274.43
+
+Restoration MSE: 274.89
+
+Restoration MSE: 275.19
+
+Restoration MSE: 274.88
+
+Restoration MSE: 275.17
+
+Restoration MSE: 275.32
+
+Restoration MSE: 275.81
+
+Restoration MSE: 276.40
+
+Restoration MSE: 276.57
+
+Restoration MSE: 276.77
+
+Restoration MSE: 277.18
+
+Restoration MSE: 278.44
+
+Restoration MSE: 278.81
+
+Restoration MSE: 279.34
+
+Restoration MSE: 279.72
+
+Restoration MSE: 280.12
+
+Restoration MSE: 280.33
+
+Restoration MSE: 279.74
+
+Restoration MSE: 280.01
+
+Restoration MSE: 280.79
+
+Restoration MSE: 281.09
+
+Restoration MSE: 282.23
+
+Restoration MSE: 282.71
+
+Restoration MSE: 281.11
+
+Restoration MSE: 281.28
+
+Restoration MSE: 281.63
+
+Restoration MSE: 281.76
+
+Restoration MSE: 283.25
+
+Restoration MSE: 283.89
+
+Restoration MSE: 284.17
+
+Restoration MSE: 284.59
+
+Restoration MSE: 284.91
+
+Restoration MSE: 285.28
+
+Restoration MSE: 285.54
+
+Restoration MSE: 285.81
+
+Restoration MSE: 285.50
+
+Restoration MSE: 285.71
+
+Restoration MSE: 286.13
+
+Restoration MSE: 286.57
+
+Restoration MSE: 285.68
+
+Restoration MSE: 285.87
+
+Restoration MSE: 286.78
+
+Restoration MSE: 287.57
+
+Restoration MSE: 288.27
+
+Restoration MSE: 288.58
+
+Restoration MSE: 288.21
+
+Restoration MSE: 288.61
+
+Restoration MSE: 289.50
+
+Restoration MSE: 289.67
+
+Restoration MSE: 290.27
+
+Restoration MSE: 290.52
+
+Restoration MSE: 291.16
+
+Restoration MSE: 291.55
+
+Restoration MSE: 291.54
+
+Restoration MSE: 292.29
+
+Restoration MSE: 293.11
+
+Restoration MSE: 293.33
+
+Restoration MSE: 293.59
+
+Restoration MSE: 293.90
+
+Restoration MSE: 294.58
+
+Restoration MSE: 294.88
+
+Restoration MSE: 295.18
+
+Restoration MSE: 295.60
+
+Restoration MSE: 295.57
+
+Restoration MSE: 295.61
+
+Restoration MSE: 295.99
+
+Restoration MSE: 296.27
+
+Restoration MSE: 296.30
+
+Restoration MSE: 296.57
+
+Restoration MSE: 296.87
+
+Restoration MSE: 297.31
+
+Restoration MSE: 297.50
+
+Restoration MSE: 297.66
+
+Restoration MSE: 298.34
+
+Restoration MSE: 298.70
+
+Restoration MSE: 299.34
+
+Restoration MSE: 299.70
+
+Restoration MSE: 299.70
+
+Restoration MSE: 300.11
+
+Restoration MSE: 300.33
+
+Restoration MSE: 300.52
+
+Restoration MSE: 301.95
+
+Restoration MSE: 302.43
+
+Restoration MSE: 302.91
+
+Restoration MSE: 303.21
+
+Restoration MSE: 302.42
+
+Restoration MSE: 302.81
+
+Restoration MSE: 302.76
+
+Restoration MSE: 302.94
+
+Restoration MSE: 302.44
+
+Restoration MSE: 302.75
+
+Restoration MSE: 302.89
+
+Restoration MSE: 303.23
+
+Restoration MSE: 304.41
+
+Restoration MSE: 304.75
+
+Restoration MSE: 304.50
+
+Restoration MSE: 304.80
+
+Restoration MSE: 305.79
+
+Restoration MSE: 306.52
+
+Restoration MSE: 306.84
+
+Restoration MSE: 307.07
+
+Restoration MSE: 306.69
+
+Restoration MSE: 307.00
+
+Restoration MSE: 308.95
+
+Restoration MSE: 309.17
+
+Restoration MSE: 309.00
+
+Restoration MSE: 309.26
+
+Restoration MSE: 309.57
+
+Restoration MSE: 310.11
+
+Restoration MSE: 310.98
+
+Restoration MSE: 311.57
+
+Restoration MSE: 311.08
+
+Restoration MSE: 311.40
+
+Restoration MSE: 312.05
+
+Restoration MSE: 312.40
+
+Restoration MSE: 313.51
+
+Restoration MSE: 313.70
+
+Restoration MSE: 313.68
+
+Restoration MSE: 314.00
+
+Restoration MSE: 312.97
+
+Restoration MSE: 313.41
+
+Restoration MSE: 313.36
+
+Restoration MSE: 313.83
+
+Restoration MSE: 314.11
+
+Restoration MSE: 314.43
+
+Restoration MSE: 315.02
+
+Restoration MSE: 315.61
+
+Restoration MSE: 316.52
+
+Restoration MSE: 316.61
+
+Restoration MSE: 317.62
+
+Restoration MSE: 317.76
+
+Restoration MSE: 317.92
+
+Restoration MSE: 318.40
+
+Restoration MSE: 318.08
+
+Restoration MSE: 318.62
+
+Restoration MSE: 318.33
+
+Restoration MSE: 318.57
+
+Restoration MSE: 318.46
+
+Restoration MSE: 318.79
+
+Restoration MSE: 320.58
+
+Restoration MSE: 320.91
+
+Restoration MSE: 321.76
+
+Restoration MSE: 322.05
+
+Restoration MSE: 323.00
+
+Restoration MSE: 323.16
+
+Restoration MSE: 322.67
+
+Restoration MSE: 322.90
+
+Restoration MSE: 323.22
+
+Restoration MSE: 323.54
+
+Restoration MSE: 324.57
+
+Restoration MSE: 325.13
+
+Restoration MSE: 323.20
+
+Restoration MSE: 323.58
+
+Restoration MSE: 323.76
+
+Restoration MSE: 323.88
+
+Restoration MSE: 325.30
+
+Restoration MSE: 325.87
+
+Restoration MSE: 326.42
+
+Restoration MSE: 326.82
+
+Restoration MSE: 328.15
+
+Restoration MSE: 328.37
+
+Restoration MSE: 328.32
+
+Restoration MSE: 328.58
+
+Restoration MSE: 327.94
+
+Restoration MSE: 327.99
+
+Restoration MSE: 328.98
+
+Restoration MSE: 329.38
+
+Restoration MSE: 328.85
+
+Restoration MSE: 328.96
+
+Restoration MSE: 329.87
+
+Restoration MSE: 330.49
+
+Restoration MSE: 331.27
+
+Restoration MSE: 331.57
+
+Restoration MSE: 331.23
+
+Restoration MSE: 331.58
+
+Restoration MSE: 331.16
+
+Restoration MSE: 331.44
+
+Restoration MSE: 332.57
+
+Restoration MSE: 332.89
+
+Restoration MSE: 333.50
+
+Restoration MSE: 333.82
+
+Restoration MSE: 333.34
+
+Restoration MSE: 333.68
+
+Restoration MSE: 334.96
+
+Restoration MSE: 335.39
+
+Restoration MSE: 335.99
+
+Restoration MSE: 336.43
+
+Restoration MSE: 336.75
+
+Restoration MSE: 337.09
+
+Restoration MSE: 337.11
+
+Restoration MSE: 337.63
+
+Restoration MSE: 338.01
+
+Restoration MSE: 338.16
+
+Restoration MSE: 338.23
+
+Restoration MSE: 338.47
+
+Restoration MSE: 338.48
+
+Restoration MSE: 338.94
+
+Restoration MSE: 339.39
+
+Restoration MSE: 340.09
+
+Restoration MSE: 340.00
+
+Restoration MSE: 340.05
+
+Restoration MSE: 340.93
+
+Restoration MSE: 341.32
+
+Restoration MSE: 341.00
+
+Restoration MSE: 341.55
+
+Restoration MSE: 341.48
+
+Restoration MSE: 341.57
+
+Restoration MSE: 342.12
+
+Restoration MSE: 342.59
+
+Restoration MSE: 344.32
+
+Restoration MSE: 344.32
+
+Restoration MSE: 344.62
+
+Restoration MSE: 345.09
+
+Restoration MSE: 343.97
+
+Restoration MSE: 344.13
+
+Restoration MSE: 345.87
+
+Restoration MSE: 346.21
+
+Restoration MSE: 345.38
+
+Restoration MSE: 345.69
+
+Restoration MSE: 345.75
+
+Restoration MSE: 345.88
+
+Restoration MSE: 347.29
+
+Restoration MSE: 347.67
+
+Restoration MSE: 347.21
+
+Restoration MSE: 347.56
+
+Restoration MSE: 348.28
+
+Restoration MSE: 349.00
+
+Restoration MSE: 349.14
+
+Restoration MSE: 349.38
+
+Restoration MSE: 349.31
+
+Restoration MSE: 349.58
+
+Restoration MSE: 352.31
+
+Restoration MSE: 352.73
+
+Restoration MSE: 352.44
+
+Restoration MSE: 352.85
+
+Restoration MSE: 353.02
+
+Restoration MSE: 353.55
+
+Restoration MSE: 354.45
+
+Restoration MSE: 354.84
+
+Restoration MSE: 353.25
+
+Restoration MSE: 353.51
+
+Restoration MSE: 353.71
+
+Restoration MSE: 354.08
+
+Restoration MSE: 355.50
+
+Restoration MSE: 355.84
+
+Restoration MSE: 356.35
+
+Restoration MSE: 356.64
+
+Restoration MSE: 355.20
+
+Restoration MSE: 355.47
+
+Restoration MSE: 356.03
+
+Restoration MSE: 356.30
+
+Restoration MSE: 356.93
+
+Restoration MSE: 357.29
+
+Restoration MSE: 357.38
+
+Restoration MSE: 357.73
+
+Restoration MSE: 360.38
+
+Restoration MSE: 360.54
+
+Restoration MSE: 361.44
+
+Restoration MSE: 361.71
+
+Restoration MSE: 361.56
+
+Restoration MSE: 361.83
+
+Restoration MSE: 361.47
+
+Restoration MSE: 361.79
+
+Restoration MSE: 360.58
+
+Restoration MSE: 360.83
+
+Restoration MSE: 360.82
+
+Restoration MSE: 361.17
+
+Restoration MSE: 362.36
+
+Restoration MSE: 362.72
+
+Restoration MSE: 363.52
+
+Restoration MSE: 363.98
+
+Restoration MSE: 365.20
+
+Restoration MSE: 365.52
+
+Restoration MSE: 364.78
+
+Restoration MSE: 365.05
+
+Restoration MSE: 365.91
+
+Restoration MSE: 366.27
+
+Restoration MSE: 367.60
+
+Restoration MSE: 368.15
+
+Restoration MSE: 365.06
+
+Restoration MSE: 365.31
+
+Restoration MSE: 365.82
+
+Restoration MSE: 365.77
+
+Restoration MSE: 367.77
+
+Restoration MSE: 368.86
+
+Restoration MSE: 369.15
+
+Restoration MSE: 369.59
+
+Restoration MSE: 370.50
+
+Restoration MSE: 370.97
+
+Restoration MSE: 371.51
+
+Restoration MSE: 371.87
+
+Restoration MSE: 370.75
+
+Restoration MSE: 371.06
+
+Restoration MSE: 371.20
+
+Restoration MSE: 371.51
+
+Restoration MSE: 370.83
+
+Restoration MSE: 371.20
+
+Restoration MSE: 372.59
+
+Restoration MSE: 373.20
+
+Restoration MSE: 373.66
+
+Restoration MSE: 373.65
+
+Restoration MSE: 372.86
+
+Restoration MSE: 373.11
+
+Restoration MSE: 374.38
+
+Restoration MSE: 374.67
+
+Restoration MSE: 375.58
+
+Restoration MSE: 375.77
+
+Restoration MSE: 376.14
+
+Restoration MSE: 376.50
+
+Restoration MSE: 376.14
+
+Restoration MSE: 376.44
+
+Restoration MSE: 377.98
+
+Restoration MSE: 378.08
+
+Restoration MSE: 379.02
+
+Restoration MSE: 379.38
+
+Restoration MSE: 380.09
+
+Restoration MSE: 380.43
+
+Restoration MSE: 380.14
+
+Restoration MSE: 380.25
+
+Restoration MSE: 380.71
+
+Restoration MSE: 381.03
+
+Restoration MSE: 381.19
+
+Restoration MSE: 381.54
+
+Restoration MSE: 381.72
+
+Restoration MSE: 382.22
+
+Restoration MSE: 382.67
+
+Restoration MSE: 383.04
+
+Restoration MSE: 381.76
+
+Restoration MSE: 382.08
+
+Restoration MSE: 382.70
+
+Restoration MSE: 383.17
+
+Restoration MSE: 384.13
+
+Restoration MSE: 384.44
+
+Restoration MSE: 384.43
+
+Restoration MSE: 384.76
+
+Restoration MSE: 385.48
+
+Restoration MSE: 385.78
+
+Restoration MSE: 387.21
+
+Restoration MSE: 387.69
+
+Restoration MSE: 388.00
+
+Restoration MSE: 388.63
+
+Restoration MSE: 387.84
+
+Restoration MSE: 388.16
+
+Restoration MSE: 387.33
+
+Restoration MSE: 387.73
+
+Restoration MSE: 387.25
+
+Restoration MSE: 387.66
+
+Restoration MSE: 387.68
+
+Restoration MSE: 387.99
+
+Restoration MSE: 389.01
+
+Restoration MSE: 389.52
+
+Restoration MSE: 389.99
+
+Restoration MSE: 390.33
+
+Restoration MSE: 390.38
+
+Restoration MSE: 390.74
+
+Restoration MSE: 391.54
+
+Restoration MSE: 391.85
+
+Restoration MSE: 392.46
+
+Restoration MSE: 392.76
+
+Restoration MSE: 394.67
+
+Restoration MSE: 394.97
+
+Restoration MSE: 394.68
+
+Restoration MSE: 395.02
+
+Restoration MSE: 395.80
+
+Restoration MSE: 396.61
+
+Restoration MSE: 397.58
+
+Restoration MSE: 397.90
+
+Restoration MSE: 395.63
+
+Restoration MSE: 396.06
+
+Restoration MSE: 396.81
+
+Restoration MSE: 397.28
+
+Restoration MSE: 399.02
+
+Restoration MSE: 399.10
+
+Restoration MSE: 399.06
+
+Restoration MSE: 399.25
+
+Restoration MSE: 398.15
+
+Restoration MSE: 398.46
+
+Restoration MSE: 399.08
+
+Restoration MSE: 399.55
+
+Restoration MSE: 400.19
+
+Restoration MSE: 400.50
+
+Restoration MSE: 400.50
+
+Restoration MSE: 400.99
+
+Restoration MSE: 402.45
+
+Restoration MSE: 402.86
+
+Restoration MSE: 404.01
+
+Restoration MSE: 404.29
+
+Restoration MSE: 403.80
+
+Restoration MSE: 404.15
+
+Restoration MSE: 403.65
+
+Restoration MSE: 404.18
+
+Restoration MSE: 402.89
+
+Restoration MSE: 403.25
+
+Restoration MSE: 403.24
+
+Restoration MSE: 403.64
+
+Restoration MSE: 405.93
+
+Restoration MSE: 406.35
+
+Restoration MSE: 406.96
+
+Restoration MSE: 407.31
+
+Restoration MSE: 408.76
+
+Restoration MSE: 409.05
+
+Restoration MSE: 408.53
+
+Restoration MSE: 408.83
+
+Restoration MSE: 409.93
+
+Restoration MSE: 410.26
+
+Restoration MSE: 411.41
+
+Restoration MSE: 411.76
+
+Restoration MSE: 408.97
+
+Restoration MSE: 409.25
+
+Restoration MSE: 409.35
+
+Restoration MSE: 409.76
+
+Restoration MSE: 412.21
+
+Restoration MSE: 413.26
+
+Restoration MSE: 414.46
+
+Restoration MSE: 414.96
+
+Restoration MSE: 415.69
+
+Restoration MSE: 416.36
+
+Restoration MSE: 417.19
+
+Restoration MSE: 417.82
+
+Restoration MSE: 417.38
+
+Restoration MSE: 418.01
+
+Restoration MSE: 418.52
+
+Restoration MSE: 419.20
+
+Restoration MSE: 420.17
+
+Restoration MSE: 420.86
+
+Restoration MSE: 422.32
+
+Restoration MSE: 423.32
+
+Restoration MSE: 424.25
+
+Restoration MSE: 424.82
+
+Restoration MSE: 424.60
+
+Restoration MSE: 425.20
+
+Restoration MSE: 425.69
+
+Restoration MSE: 426.34
+
+Restoration MSE: 427.47
+
+Restoration MSE: 428.14
+
+Restoration MSE: 429.20
+
+Restoration MSE: 430.18
+
+Restoration MSE: 430.36
+
+Restoration MSE: 430.99
+
+Restoration MSE: 433.59
+
+Restoration MSE: 434.36
+
+Restoration MSE: 435.22
+
+Restoration MSE: 435.87
+
+Restoration MSE: 437.05
+
+Restoration MSE: 437.90
+
+Restoration MSE: 438.22
+
+Restoration MSE: 439.07
+
+Restoration MSE: 439.31
+
+Restoration MSE: 439.80
+
+Restoration MSE: 440.46
+
+Restoration MSE: 441.13
+
+Restoration MSE: 441.96
+
+Restoration MSE: 442.94
+
+Restoration MSE: 443.61
+
+Restoration MSE: 444.30
+
+Restoration MSE: 442.69
+
+Restoration MSE: 443.05
+
+Restoration MSE: 444.39
+
+Restoration MSE: 445.14
+
+Restoration MSE: 446.77
+
+Restoration MSE: 447.89
+
+Restoration MSE: 447.79
+
+Restoration MSE: 448.38
+
+Restoration MSE: 448.79
+
+Restoration MSE: 449.43
+
+Restoration MSE: 451.84
+
+Restoration MSE: 452.87
+
+Restoration MSE: 453.43
+
+Restoration MSE: 453.89
+
+Restoration MSE: 452.86
+
+Restoration MSE: 453.55
+
+Restoration MSE: 456.14
+
+Restoration MSE: 456.91
+
+Restoration MSE: 456.23
+
+Restoration MSE: 456.86
+
+Restoration MSE: 457.68
+
+Restoration MSE: 458.48
+
+Restoration MSE: 460.52
+
+Restoration MSE: 461.08
+
+Restoration MSE: 459.57
+
+Restoration MSE: 460.37
+
+Restoration MSE: 462.24
+
+Restoration MSE: 463.27
+
+Restoration MSE: 464.74
+
+Restoration MSE: 465.41
+
+Restoration MSE: 464.92
+
+Restoration MSE: 465.71
+
+Restoration MSE: 467.71
+
+Restoration MSE: 468.41
+
+Restoration MSE: 468.43
+
+Restoration MSE: 468.97
+
+Restoration MSE: 470.68
+
+Restoration MSE: 471.73
+
+Restoration MSE: 473.10
+
+Restoration MSE: 473.85
+
+Restoration MSE: 473.15
+
+Restoration MSE: 473.83
+
+Restoration MSE: 474.82
+
+Restoration MSE: 475.49
+
+Restoration MSE: 477.60
+
+Restoration MSE: 477.71
+
+Restoration MSE: 478.06
+
+Restoration MSE: 478.70
+
+Restoration MSE: 476.27
+
+Restoration MSE: 476.97
+
+Restoration MSE: 478.03
+
+Restoration MSE: 479.07
+
+Restoration MSE: 480.64
+
+Restoration MSE: 481.87
+
+Restoration MSE: 482.31
+
+Restoration MSE: 482.98
+
+Restoration MSE: 485.17
+
+Restoration MSE: 485.63
+
+Restoration MSE: 487.11
+
+Restoration MSE: 487.99
+
+Restoration MSE: 487.71
+
+Restoration MSE: 488.38
+
+Restoration MSE: 488.14
+
+Restoration MSE: 488.80
+
+Restoration MSE: 488.58
+
+Restoration MSE: 489.19
+
+Restoration MSE: 489.07
+
+Restoration MSE: 490.06
+
+Restoration MSE: 492.82
+
+Restoration MSE: 493.84
+
+Restoration MSE: 495.55
+
+Restoration MSE: 496.14
+
+Restoration MSE: 497.29
+
+Restoration MSE: 497.94
+
+Restoration MSE: 497.11
+
+Restoration MSE: 497.84
+
+Restoration MSE: 499.00
+
+Restoration MSE: 499.79
+
+Restoration MSE: 501.97
+
+Restoration MSE: 502.69
+
+Restoration MSE: 498.69
+
+Restoration MSE: 499.39
+
+Restoration MSE: 500.14
+
+Restoration MSE: 500.57
+
+Restoration MSE: 503.94
+
+Restoration MSE: 504.75
+
+Restoration MSE: 505.46
+
+Restoration MSE: 506.14
+
+Restoration MSE: 507.20
+
+Restoration MSE: 507.83
+
+Restoration MSE: 509.08
+
+Restoration MSE: 509.47
+
+Restoration MSE: 509.14
+
+Restoration MSE: 509.76
+
+Restoration MSE: 509.92
+
+Restoration MSE: 510.63
+
+Restoration MSE: 510.96
+
+Restoration MSE: 511.78
+
+Restoration MSE: 512.77
+
+Restoration MSE: 514.32
+
+Restoration MSE: 514.89
+
+Restoration MSE: 515.46
+
+Restoration MSE: 515.80
+
+Restoration MSE: 516.41
+
+Restoration MSE: 516.44
+
+Restoration MSE: 517.10
+
+Restoration MSE: 517.94
+
+Restoration MSE: 519.01
+
+Restoration MSE: 520.79
+
+Restoration MSE: 521.64
+
+Restoration MSE: 522.16
+
+Restoration MSE: 522.94
+
+Restoration MSE: 523.90
+
+Restoration MSE: 524.88
+
+Restoration MSE: 525.54
+
+Restoration MSE: 526.21
+
+Restoration MSE: 527.51
+
+Restoration MSE: 528.19
+
+Restoration MSE: 528.89
+
+Restoration MSE: 529.90
+
+Restoration MSE: 530.47
+
+Restoration MSE: 530.91
+
+Restoration MSE: 531.14
+
+Restoration MSE: 531.71
+
+Restoration MSE: 531.97
+
+Restoration MSE: 533.03
+
+Restoration MSE: 534.17
+
+Restoration MSE: 535.37
+
+Restoration MSE: 535.30
+
+Restoration MSE: 535.58
+
+Restoration MSE: 536.24
+
+Restoration MSE: 537.04
+
+Restoration MSE: 537.42
+
+Restoration MSE: 538.31
+
+Restoration MSE: 538.64
+
+Restoration MSE: 539.02
+
+Restoration MSE: 539.84
+
+Restoration MSE: 540.52
+
+Restoration MSE: 542.29
+
+Restoration MSE: 543.46
+
+Restoration MSE: 544.02
+
+Restoration MSE: 545.19
+
+Restoration MSE: 544.67
+
+Restoration MSE: 545.34
+
+Restoration MSE: 545.86
+
+Restoration MSE: 546.87
+
+Restoration MSE: 546.11
+
+Restoration MSE: 547.00
+
+Restoration MSE: 546.65
+
+Restoration MSE: 547.18
+
+Restoration MSE: 549.35
+
+Restoration MSE: 549.95
+
+Restoration MSE: 550.04
+
+Restoration MSE: 550.75
+
+Restoration MSE: 551.97
+
+Restoration MSE: 553.02
+
+Restoration MSE: 554.66
+
+Restoration MSE: 555.31
+
+Restoration MSE: 555.44
+
+Restoration MSE: 556.09
+
+Restoration MSE: 558.12
+
+Restoration MSE: 558.84
+
+Restoration MSE: 559.23
+
+Restoration MSE: 559.92
+
+Restoration MSE: 561.73
+
+Restoration MSE: 562.85
+
+Restoration MSE: 563.82
+
+Restoration MSE: 564.55
+
+Restoration MSE: 562.97
+
+Restoration MSE: 563.66
+
+Restoration MSE: 564.32
+
+Restoration MSE: 565.11
+
+Restoration MSE: 566.37
+
+Restoration MSE: 566.24
+
+Restoration MSE: 567.04
+
+Restoration MSE: 567.63
+
+Restoration MSE: 567.29
+
+Restoration MSE: 568.05
+
+Restoration MSE: 568.50
+
+Restoration MSE: 569.27
+
+Restoration MSE: 570.85
+
+Restoration MSE: 571.76
+
+Restoration MSE: 572.75
+
+Restoration MSE: 573.46
+
+Restoration MSE: 576.10
+
+Restoration MSE: 576.75
+
+Restoration MSE: 577.84
+
+Restoration MSE: 578.49
+
+Restoration MSE: 577.58
+
+Restoration MSE: 578.29
+
+Restoration MSE: 578.56
+
+Restoration MSE: 579.25
+
+Restoration MSE: 578.90
+
+Restoration MSE: 579.46
+
+Restoration MSE: 579.89
+
+Restoration MSE: 580.49
+
+Restoration MSE: 582.61
+
+Restoration MSE: 583.50
+
+Restoration MSE: 584.57
+
+Restoration MSE: 585.16
+
+Restoration MSE: 587.41
+
+Restoration MSE: 588.11
+
+Restoration MSE: 587.04
+
+Restoration MSE: 587.73
+
+Restoration MSE: 589.37
+
+Restoration MSE: 590.04
+
+Restoration MSE: 592.48
+
+Restoration MSE: 593.19
+
+Restoration MSE: 590.18
+
+Restoration MSE: 590.83
+
+Restoration MSE: 590.98
+
+Restoration MSE: 591.19
+
+Restoration MSE: 593.79
+
+Restoration MSE: 595.04
+
+Restoration MSE: 596.35
+
+Restoration MSE: 597.08
+
+Restoration MSE: 598.67
+
+Restoration MSE: 599.35
+
+Restoration MSE: 600.21
+
+Restoration MSE: 600.82
+
+Restoration MSE: 599.75
+
+Restoration MSE: 600.20
+
+Restoration MSE: 600.72
+
+Restoration MSE: 601.42
+
+Restoration MSE: 601.35
+
+Restoration MSE: 601.87
+
+Restoration MSE: 603.48
+
+Restoration MSE: 604.77
+
+Restoration MSE: 606.04
+
+Restoration MSE: 607.00
+
+Restoration MSE: 606.68
+
+Restoration MSE: 607.35
+
+Restoration MSE: 606.66
+
+Restoration MSE: 607.39
+
+Restoration MSE: 608.55
+
+Restoration MSE: 609.44
+
+Restoration MSE: 610.45
+
+Restoration MSE: 611.10
+
+Restoration MSE: 611.31
+
+Restoration MSE: 612.12
+
+Restoration MSE: 613.69
+
+Restoration MSE: 614.71
+
+Restoration MSE: 615.26
+
+Restoration MSE: 615.81
+
+Restoration MSE: 616.70
+
+Restoration MSE: 617.21
+
+Restoration MSE: 618.32
+
+Restoration MSE: 619.31
+
+Restoration MSE: 619.72
+
+Restoration MSE: 620.20
+
+Restoration MSE: 621.06
+
+Restoration MSE: 621.73
+
+Restoration MSE: 621.52
+
+Restoration MSE: 622.70
+
+Restoration MSE: 623.27
+
+Restoration MSE: 624.23
+
+Restoration MSE: 624.33
+
+Restoration MSE: 624.30
+
+Restoration MSE: 625.57
+
+Restoration MSE: 626.16
+
+Restoration MSE: 627.36
+
+Restoration MSE: 628.35
+
+Restoration MSE: 628.38
+
+Restoration MSE: 628.84
+
+Restoration MSE: 630.03
+
+Restoration MSE: 630.71
+
+Restoration MSE: 632.93
+
+Restoration MSE: 634.12
+
+Restoration MSE: 634.83
+
+Restoration MSE: 635.52
+
+Restoration MSE: 634.49
+
+Restoration MSE: 635.17
+
+Restoration MSE: 635.26
+
+Restoration MSE: 636.18
+
+Restoration MSE: 635.77
+
+Restoration MSE: 636.74
+
+Restoration MSE: 636.35
+
+Restoration MSE: 636.92
+
+Restoration MSE: 638.79
+
+Restoration MSE: 639.60
+
+Restoration MSE: 638.55
+
+Restoration MSE: 639.31
+
+Restoration MSE: 640.72
+
+Restoration MSE: 641.85
+
+Restoration MSE: 644.14
+
+Restoration MSE: 644.71
+
+Restoration MSE: 644.68
+
+Restoration MSE: 645.29
+
+Restoration MSE: 646.82
+
+Restoration MSE: 647.62
+
+Restoration MSE: 648.39
+
+Restoration MSE: 649.22
+
+Restoration MSE: 651.19
+
+Restoration MSE: 652.57
+
+Restoration MSE: 653.20
+
+Restoration MSE: 653.94
+
+Restoration MSE: 652.13
+
+Restoration MSE: 652.77
+
+Restoration MSE: 653.14
+
+Restoration MSE: 653.81
+
+Restoration MSE: 656.74
+
+Restoration MSE: 656.93
+
+Restoration MSE: 657.94
+
+Restoration MSE: 658.59
+
+Restoration MSE: 655.02
+
+Restoration MSE: 655.69
+
+Restoration MSE: 657.64
+
+Restoration MSE: 658.53
+
+Restoration MSE: 660.17
+
+Restoration MSE: 661.06
+
+Restoration MSE: 660.47
+
+Restoration MSE: 661.16
+
+Restoration MSE: 666.01
+
+Restoration MSE: 666.65
+
+Restoration MSE: 668.20
+
+Restoration MSE: 668.83
+
+Restoration MSE: 668.24
+
+Restoration MSE: 668.95
+
+Restoration MSE: 668.65
+
+Restoration MSE: 669.37
+
+Restoration MSE: 667.34
+
+Restoration MSE: 667.95
+
+Restoration MSE: 667.94
+
+Restoration MSE: 668.73
+
+Restoration MSE: 671.48
+
+Restoration MSE: 672.26
+
+Restoration MSE: 673.85
+
+Restoration MSE: 674.47
+
+Restoration MSE: 676.71
+
+Restoration MSE: 677.36
+
+Restoration MSE: 675.71
+
+Restoration MSE: 676.42
+
+Restoration MSE: 678.65
+
+Restoration MSE: 679.26
+
+Restoration MSE: 682.24
+
+Restoration MSE: 682.97
+
+Restoration MSE: 679.59
+
+Restoration MSE: 679.66
+
+Restoration MSE: 679.22
+
+Restoration MSE: 679.42
+
+Restoration MSE: 682.82
+
+Restoration MSE: 684.45
+
+Restoration MSE: 686.59
+
+Restoration MSE: 687.01
+
+Restoration MSE: 688.07
+
+Restoration MSE: 688.74
+
+Restoration MSE: 690.15
+
+Restoration MSE: 690.80
+
+Restoration MSE: 690.01
+
+Restoration MSE: 690.48
+
+Restoration MSE: 690.39
+
+Restoration MSE: 691.12
+
+Restoration MSE: 690.05
+
+Restoration MSE: 690.74
+
+Restoration MSE: 691.88
+
+Restoration MSE: 693.83
+
+Restoration MSE: 695.58
+
+Restoration MSE: 696.25
+
+Restoration MSE: 696.42
+
+Restoration MSE: 697.09
+
+Restoration MSE: 696.28
+
+Restoration MSE: 696.97
+
+Restoration MSE: 698.47
+
+Restoration MSE: 699.18
+
+Restoration MSE: 699.83
+
+Restoration MSE: 700.84
+
+Restoration MSE: 700.73
+
+Restoration MSE: 701.40
+
+Restoration MSE: 703.68
+
+Restoration MSE: 704.83
+
+Restoration MSE: 705.52
+
+Restoration MSE: 706.21
+
+Restoration MSE: 706.74
+
+Restoration MSE: 707.43
+
+Restoration MSE: 708.12
+
+Restoration MSE: 709.29
+
+Restoration MSE: 708.86
+
+Restoration MSE: 709.39
+
+Restoration MSE: 710.14
+
+Restoration MSE: 710.75
+
+Restoration MSE: 710.92
+
+Restoration MSE: 712.41
+
+Restoration MSE: 713.25
+
+Restoration MSE: 714.23
+
+Restoration MSE: 712.93
+
+Restoration MSE: 712.82
+
+Restoration MSE: 714.43
+
+Restoration MSE: 715.24
+
+Restoration MSE: 717.52
+
+Restoration MSE: 718.33
+
+Restoration MSE: 718.02
+
+Restoration MSE: 718.08
+
+Restoration MSE: 719.61
+
+Restoration MSE: 720.33
+
+Restoration MSE: 723.41
+
+Restoration MSE: 724.50
+
+Restoration MSE: 725.23
+
+Restoration MSE: 725.54
+
+Restoration MSE: 723.70
+
+Restoration MSE: 724.35
+
+Restoration MSE: 725.68
+
+Restoration MSE: 726.67
+
+Restoration MSE: 724.67
+
+Restoration MSE: 725.62
+
+Restoration MSE: 725.00
+
+Restoration MSE: 725.58
+
+Restoration MSE: 728.87
+
+Restoration MSE: 729.67
+
+Restoration MSE: 728.65
+
+Restoration MSE: 729.38
+
+Restoration MSE: 731.34
+
+Restoration MSE: 732.42
+
+Restoration MSE: 734.22
+
+Restoration MSE: 734.89
+
+Restoration MSE: 734.32
+
+Restoration MSE: 735.01
+
+Restoration MSE: 737.37
+
+Restoration MSE: 738.05
+
+Restoration MSE: 738.47
+
+Restoration MSE: 739.20
+
+Restoration MSE: 740.87
+
+Restoration MSE: 742.68
+
+Restoration MSE: 743.67
+
+Restoration MSE: 744.42
+
+Restoration MSE: 742.37
+
+Restoration MSE: 743.12
+
+Restoration MSE: 743.75
+
+Restoration MSE: 744.47
+
+Restoration MSE: 746.28
+
+Restoration MSE: 746.57
+
+Restoration MSE: 747.34
+
+Restoration MSE: 748.15
+
+Restoration MSE: 745.73
+
+Restoration MSE: 746.39
+
+Restoration MSE: 747.86
+
+Restoration MSE: 748.79
+
+Restoration MSE: 750.92
+
+Restoration MSE: 751.84
+
+Restoration MSE: 751.73
+
+Restoration MSE: 752.43
+
+Restoration MSE: 756.31
+
+Restoration MSE: 756.76
+
+Restoration MSE: 758.72
+
+Restoration MSE: 759.47
+
+Restoration MSE: 758.08
+
+Restoration MSE: 758.67
+
+Restoration MSE: 758.08
+
+Restoration MSE: 758.67
+
+Restoration MSE: 757.61
+
+Restoration MSE: 757.92
+
+Restoration MSE: 758.41
+
+Restoration MSE: 759.35
+
+Restoration MSE: 763.28
+
+Restoration MSE: 764.33
+
+Restoration MSE: 765.83
+
+Restoration MSE: 766.21
+
+Restoration MSE: 768.51
+
+Restoration MSE: 769.22
+
+Restoration MSE: 768.03
+
+Restoration MSE: 768.63
+
+Restoration MSE: 770.79
+
+Restoration MSE: 771.42
+
+Restoration MSE: 773.88
+
+Restoration MSE: 774.67
+
+Restoration MSE: 769.09
+
+Restoration MSE: 769.71
+
+Restoration MSE: 770.20
+
+Restoration MSE: 771.03
+
+Restoration MSE: 776.19
+
+Restoration MSE: 777.80
+
+Restoration MSE: 778.93
+
+Restoration MSE: 779.72
+
+Restoration MSE: 781.05
+
+Restoration MSE: 781.76
+
+Restoration MSE: 782.96
+
+Restoration MSE: 783.63
+
+Restoration MSE: 781.15
+
+Restoration MSE: 781.62
+
+Restoration MSE: 781.79
+
+Restoration MSE: 782.48
+
+Restoration MSE: 780.39
+
+Restoration MSE: 781.08
+
+Restoration MSE: 783.34
+
+Restoration MSE: 785.45
+
+Restoration MSE: 786.76
+
+Restoration MSE: 787.59
+
+Restoration MSE: 786.66
+
+Restoration MSE: 787.35
+
+Restoration MSE: 789.92
+
+Restoration MSE: 790.58
+
+Restoration MSE: 791.39
+
+Restoration MSE: 792.08
+
+Restoration MSE: 791.97
+
+Restoration MSE: 792.68
+
+Restoration MSE: 793.19
+
+Restoration MSE: 794.04
+
+Restoration MSE: 796.65
+
+Restoration MSE: 798.53
+
+Restoration MSE: 800.48
+
+Restoration MSE: 800.99
+
+Restoration MSE: 800.68
+
+Restoration MSE: 801.33
+
+Restoration MSE: 801.08
+
+Restoration MSE: 803.24
+
+Restoration MSE: 804.99
+
+Restoration MSE: 805.18
+
+Restoration MSE: 805.60
+
+Restoration MSE: 806.12
+
+Restoration MSE: 806.53
+
+Restoration MSE: 808.32
+
+Restoration MSE: 809.55
+
+Restoration MSE: 810.79
+
+Restoration MSE: 804.90
+
+Restoration MSE: 804.80
+
+Restoration MSE: 807.69
+
+Restoration MSE: 808.46
+
+Restoration MSE: 810.13
+
+Restoration MSE: 811.27
+
+Restoration MSE: 810.01
+
+Restoration MSE: 809.96
+
+Restoration MSE: 811.86
+
+Restoration MSE: 812.69
+
+Restoration MSE: 817.35
+
+Restoration MSE: 818.60
+
+Restoration MSE: 819.45
+
+Restoration MSE: 820.06
+
+Restoration MSE: 816.75
+
+Restoration MSE: 817.35
+
+Restoration MSE: 819.34
+
+Restoration MSE: 820.20
+
+Restoration MSE: 818.05
+
+Restoration MSE: 818.35
+
+Restoration MSE: 816.98
+
+Restoration MSE: 817.59
+
+Restoration MSE: 821.45
+
+Restoration MSE: 822.19
+
+Restoration MSE: 822.89
+
+Restoration MSE: 823.71
+
+Restoration MSE: 826.02
+
+Restoration MSE: 827.33
+
+Restoration MSE: 829.77
+
+Restoration MSE: 830.32
+
+Restoration MSE: 829.37
+
+Restoration MSE: 829.92
+
+Restoration MSE: 833.47
+
+Restoration MSE: 834.14
+
+Restoration MSE: 833.59
+
+Restoration MSE: 834.20
+
+Restoration MSE: 838.08
+
+Restoration MSE: 839.91
+
+Restoration MSE: 841.77
+
+Restoration MSE: 842.98
+
+Restoration MSE: 839.44
+
+Restoration MSE: 840.10
+
+Restoration MSE: 841.09
+
+Restoration MSE: 842.00
+
+Restoration MSE: 845.33
+
+Restoration MSE: 845.38
+
+Restoration MSE: 845.87
+
+Restoration MSE: 846.28
+
+Restoration MSE: 839.27
+
+Restoration MSE: 839.89
+
+Restoration MSE: 841.86
+
+Restoration MSE: 842.76
+
+Restoration MSE: 845.06
+
+Restoration MSE: 846.34
+
+Restoration MSE: 845.77
+
+Restoration MSE: 846.54
+
+Restoration MSE: 856.17
+
+Restoration MSE: 856.70
+
+Restoration MSE: 857.45
+
+Restoration MSE: 858.20
+
+Restoration MSE: 856.41
+
+Restoration MSE: 857.00
+
+Restoration MSE: 857.59
+
+Restoration MSE: 858.26
+
+Restoration MSE: 852.80
+
+Restoration MSE: 852.99
+
+Restoration MSE: 853.82
+
+Restoration MSE: 855.26
+
+Restoration MSE: 860.51
+
+Restoration MSE: 862.07
+
+Restoration MSE: 863.84
+
+Restoration MSE: 864.06
+
+Restoration MSE: 866.48
+
+Restoration MSE: 867.06
+
+Restoration MSE: 863.76
+
+Restoration MSE: 864.43
+
+Restoration MSE: 867.52
+
+Restoration MSE: 868.39
+
+Restoration MSE: 873.08
+
+Restoration MSE: 873.91
+
+Restoration MSE: 864.86
+
+Restoration MSE: 865.21
+
+Restoration MSE: 865.36
+
+Restoration MSE: 865.08
+
+Restoration MSE: 871.21
+
+Restoration MSE: 873.50
+
+Restoration MSE: 874.86
+
+Restoration MSE: 875.88
+
+Restoration MSE: 880.60
+
+Restoration MSE: 881.26
+
+Restoration MSE: 882.87
+
+Restoration MSE: 883.54
+
+Restoration MSE: 880.05
+
+Restoration MSE: 880.53
+
+Restoration MSE: 880.34
+
+Restoration MSE: 888.15
+
+TASK 6.4 - INTENSITY TRANSFORMS
+Best for Brightening: Negative
+Best for Detail: Log
+
+TASK 6.5 - HISTOGRAM PROCESSING
+Contrast values: Orig=26.2, Manual=62.8, MATLAB=73.0, CLAHE=46.1
+
+QUESTIONS & ANSWERS:
+
+Q1: Why does histogram equalization improve contrast?
+A: It redistributes intensities uniformly using CDF mapping,
+   spreading concentrated values across full [0,255] range.
+
+Q2: How does gamma affect brightness?
+A: Gamma < 1 brightens, Gamma = 1 no change, Gamma > 1 darkens.
+   Formula: s = r^gamma (non-linear power law)
+
+Q3: Effect of quantization on quality?
+A: Lower bits = fewer levels = visible banding/posterization.
+   8-bit=256 levels (good), 4-bit=16 levels (poor), 2-bit=4 levels (severe)
+
+Q4: Which transformation is reversible?
+A: Geometric transforms (rotation, translation, shear) are
+   reversible with inverse matrices, but interpolation causes small errors.
+
+Q5: How do transforms affect spatial structure?
+A: Rotation changes orientation, translation shifts position,
+   shearing distorts angles, all may introduce interpolation artifacts.
+
+=====================================================
+END OF REPORT
+=====================================================
